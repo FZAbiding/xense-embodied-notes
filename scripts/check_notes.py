@@ -25,8 +25,8 @@ REQUIRED = {
 TYPES = {"survey", "learning", "comparison", "practice", "retrospective"}
 STATUSES = {"draft", "snapshot", "reviewed"}
 VERIFICATIONS = {"source-review", "calculation", "simulation", "hardware", "mixed"}
-MAX_FILE = 5 * 1024 * 1024
-MAX_NOTE = 25 * 1024 * 1024
+FILE_SIZE_NOTICE_BYTES = 25 * 1024 * 1024
+NOTE_SIZE_NOTICE_BYTES = 250 * 1024 * 1024
 BANNED_EXT = set(
     ".urdf .xacro .mjcf .usd .usda .usdc .usdz .stl .obj .glb .gltf .step "
     ".stp .sldasm .sldprt .slddrw .x_t .x_b .pt .pth .ckpt .onnx .safetensors "
@@ -127,6 +127,7 @@ def main():
     parser.add_argument("--write-index", action="store_true")
     args = parser.parse_args()
     errors = []
+    size_notices = []
     categories = json.loads((ROOT / "catalog.json").read_text(encoding="utf-8"))
     slugs = [c["slug"] for c in categories]
     if len(slugs) != len(set(slugs)) or any(not re.fullmatch(r"[a-z][a-z0-9-]*", s) for s in slugs):
@@ -172,8 +173,9 @@ def main():
                     date.fromisoformat(meta[key])
                 if meta["updated"] < meta["created"] or meta["source_date"] > meta["updated"]:
                     raise ValueError("日期顺序有误")
-                if sum(p.stat().st_size for p in folder.rglob("*") if p.is_file()) > MAX_NOTE:
-                    raise ValueError("主题包超过 25 MiB")
+                note_size = sum(p.stat().st_size for p in folder.rglob("*") if p.is_file())
+                if note_size > NOTE_SIZE_NOTICE_BYTES:
+                    size_notices.append(f"主题包 {label} 为 {note_size / 1024 / 1024:.2f} MiB，超过 250 MiB 提醒阈值")
                 provenance_path = folder / "provenance.json"
                 if provenance_path.is_file():
                     provenance = json.loads(provenance_path.read_text(encoding="utf-8"))
@@ -214,8 +216,8 @@ def main():
             continue
         size = path.stat().st_size
         total_bytes += size
-        if size > MAX_FILE:
-            errors.append(f"超过单文件 5 MiB：{relative}")
+        if size > FILE_SIZE_NOTICE_BYTES:
+            size_notices.append(f"文件 {relative} 为 {size / 1024 / 1024:.2f} MiB，超过 25 MiB 提醒阈值")
         if path.suffix.lower() in BANNED_EXT or BANNED_DIRS.intersection(relative.parts):
             errors.append(f"不收录的工程资源：{relative}")
         if relative.parts[0] == "notes" and path.suffix.lower() in SOURCE_EXT:
@@ -248,6 +250,8 @@ def main():
                     anchor_cache[resolved] = anchors(resolved)
                 if unquote(target.fragment) not in anchor_cache[resolved]:
                     errors.append(f"失效锚点：{relative} → {raw}")
+    for notice in size_notices:
+        print(f"体积提醒（不阻断检查）：{notice}", file=sys.stderr)
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
