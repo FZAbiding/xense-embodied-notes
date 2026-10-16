@@ -1,0 +1,15 @@
+[
+  {"slug":"cad","title":"CAD 与结构建模","scope":"CAD方法、机构设计、质量属性与模型转换的阶段总结","examples":"STEP处理、装配分析、惯量获取"},
+  {"slug":"humanoid","title":"人形机器人","scope":"以人形机器人产品或平台为对象的综合研究","examples":"RoboParty RP1、G1、X1"},
+  {"slug":"rl","title":"强化学习","scope":"RL方法、训练配方和学习实验的总结","examples":"PPO、运动控制、灵巧操作RL"},
+  {"slug":"vla","title":"视觉语言动作模型","scope":"以VLA模型或算法为对象的原理、训练与评估总结","examples":"pi05、pi0、SmolVLA、GR00T"},
+  {"slug":"wam","title":"世界与动作模型","scope":"世界模型、世界动作模型及预测和规划方法；具体WAM含义在笔记中定义","examples":"world model、world-action model、预测与规划"},
+  {"slug":"ego","title":"第一视角设备与算法","scope":"Ego设备、第一视角数据、定位和手部重建","examples":"DAS Ego、MINT、VIO、MANO"},
+  {"slug":"hardware","title":"硬件与执行器","scope":"电机、驱动、电气、总线、传感器及硬件专题","examples":"执行器模组、视触觉、CAN、供电"},
+  {"slug":"robot","title":"机械臂与机器人平台","scope":"机械臂、双臂、移动操作等非人形整机平台的综合研究","examples":"ARX、Seeed B601-DM、Flexiv、Franka"},
+  {"slug":"umi","title":"UMI 与手持数采","scope":"UMI路线、手持示教装置和对应数据采集方法","examples":"XTac UMI G1、TacCap、UMI"},
+  {"slug":"sim","title":"机器人仿真","scope":"仿真平台、物理建模、仿真评估与sim-to-real方法","examples":"MuJoCo、Isaac、Genesis、URDF/MJCF/USD"},
+  {"slug":"hand","title":"灵巧手","scope":"灵巧手产品、机构驱动、感知和整手能力比较","examples":"Wuji、Revo、Sharpa、LEAP"},
+  {"slug":"teleop","title":"遥操作与动作映射","scope":"遥操作系统、手套、retargeting和控制映射专题","examples":"MANUS、主从映射、手部重定向"},
+  {"slug":"data","title":"具身数据工程","scope":"多模态数据格式、同步、标注、质检与数据生产","examples":"MCAP、LeRobot、RLDS、时间同步"}
+]

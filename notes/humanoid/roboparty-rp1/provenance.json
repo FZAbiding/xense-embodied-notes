@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-16T23:39:09.651118+08:00",
+  "source_date": "2026-10-16",
+  "source_workspace": "cad/humanoid",
+  "source_identity": "agent-assisted research; exact agent/model unknown",
+  "migration_scope": "summary documents and referenced images only",
+  "verification_scope": "archive and links only; original technical checks not rerun",
+  "source_manifests": [
+    {
+      "path": "cad/humanoid/analysis/source_manifest.json",
+      "sha256": "8266dd8c954a5a86e93cf48346683565c53b6d722891df0338f5e7e3a0c6a966"
+    }
+  ],
+  "documents": [
+    {
+      "source": "cad/humanoid/RP1_深度技术报告.md",
+      "source_sha256": "3a31d0ad817274c2e24cfd338cc99a2140d50bba53a0deeaf4cd7e98e84cb0fb",
+      "destination": "report.md",
+      "destination_sha256": "d1397a2453808b84e1cf907535f083f2d82cde8a18aa671d8d7a91c60e251e54",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "cad/humanoid/figures/01_kinematic_skeleton.png",
+      "source_sha256": "d41ace2412c235dad5e3bba23ab218d6e910732118b77a7971e53b17788a577f",
+      "destination": "assets/figures/01_kinematic_skeleton.png",
+      "destination_sha256": "d41ace2412c235dad5e3bba23ab218d6e910732118b77a7971e53b17788a577f",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/humanoid/figures/03_payload_gravity.png",
+      "source_sha256": "fb8b169132ee1df2c83f58f35f060781368e7a376bc10b31ae191bbe204d44f7",
+      "destination": "assets/figures/03_payload_gravity.png",
+      "destination_sha256": "fb8b169132ee1df2c83f58f35f060781368e7a376bc10b31ae191bbe204d44f7",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/humanoid/figures/04_gravity_feasibility_slice.png",
+      "source_sha256": "cca4e96312dea1475ec1fd28a9251705c9605e5cce2b5e447d3ef845cbfe0db3",
+      "destination": "assets/figures/04_gravity_feasibility_slice.png",
+      "destination_sha256": "cca4e96312dea1475ec1fd28a9251705c9605e5cce2b5e447d3ef845cbfe0db3",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/humanoid/figures/05_arm_inertia_matrix.png",
+      "source_sha256": "5d507960bb52a4b823e0fcb6b5e968fee6bd1a452101e3212eb227b812409e94",
+      "destination": "assets/figures/05_arm_inertia_matrix.png",
+      "destination_sha256": "5d507960bb52a4b823e0fcb6b5e968fee6bd1a452101e3212eb227b812409e94",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/humanoid/figures/06_mass_distribution.png",
+      "source_sha256": "d024c507d28a5f03b7d244edbf2e2b1a2022ebc21818f883c1f04585277b51fe",
+      "destination": "assets/figures/06_mass_distribution.png",
+      "destination_sha256": "d024c507d28a5f03b7d244edbf2e2b1a2022ebc21818f883c1f04585277b51fe",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/humanoid/figures/07_ankle_jacobian_torque.png",
+      "source_sha256": "93c71968d4c107f75cad95486cbb6931f6c13c4e82fff0213c5ec47090f71af5",
+      "destination": "assets/figures/07_ankle_jacobian_torque.png",
+      "destination_sha256": "93c71968d4c107f75cad95486cbb6931f6c13c4e82fff0213c5ec47090f71af5",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/humanoid/figures/08_motor_8463_drawing.png",
+      "source_sha256": "7382809e4a5b2e9b72d37336892df562c28260d6279e604a7a2b35e9c691f090",
+      "destination": "assets/figures/08_motor_8463_drawing.png",
+      "destination_sha256": "7382809e4a5b2e9b72d37336892df562c28260d6279e604a7a2b35e9c691f090",
+      "role": "原研究保存的官方图或官方文档图表摘图"
+    },
+    {
+      "source": "cad/humanoid/figures/09_motor_10062_efficiency.png",
+      "source_sha256": "b33ac3401e928f9f7ba6cb428e8e2827bf1fa1cf82a2bdddb37372f84c82cfec",
+      "destination": "assets/figures/09_motor_10062_efficiency.png",
+      "destination_sha256": "b33ac3401e928f9f7ba6cb428e8e2827bf1fa1cf82a2bdddb37372f84c82cfec",
+      "role": "原研究保存的官方图或官方文档图表摘图"
+    },
+    {
+      "source": "cad/humanoid/figures/10_motor_10062_thermal.png",
+      "source_sha256": "e6b6933cf9a9e086d4b154d4e4edb216e6078b91cfa3e3c08fd83e275a1bfb3b",
+      "destination": "assets/figures/10_motor_10062_thermal.png",
+      "destination_sha256": "e6b6933cf9a9e086d4b154d4e4edb216e6078b91cfa3e3c08fd83e275a1bfb3b",
+      "role": "原研究保存的官方图或官方文档图表摘图"
+    },
+    {
+      "source": "cad/humanoid/figures/13_mujoco_official_mesh.png",
+      "source_sha256": "e6065fe8c512291f6cb4d353e752a3ec2c204feb84216eeae3cde714e07ae261",
+      "destination": "assets/figures/13_mujoco_official_mesh.png",
+      "destination_sha256": "e6065fe8c512291f6cb4d353e752a3ec2c204feb84216eeae3cde714e07ae261",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/humanoid/figures/14_wrist_axes.png",
+      "source_sha256": "344f6e040340f177b4d92663807691f636c770f2f890ddc663dabb21023c7db4",
+      "destination": "assets/figures/14_wrist_axes.png",
+      "destination_sha256": "344f6e040340f177b4d92663807691f636c770f2f890ddc663dabb21023c7db4",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/humanoid/figures/official_cnc-part-drawing.png",
+      "source_sha256": "af3a56133506949a3c008be44fb24b9ec422df49697603add3994f42260063e9",
+      "destination": "assets/figures/official_cnc-part-drawing.png",
+      "destination_sha256": "af3a56133506949a3c008be44fb24b9ec422df49697603add3994f42260063e9",
+      "role": "原研究保存的官方图或官方文档图表摘图"
+    },
+    {
+      "source": "cad/humanoid/figures/official_harness-drawing.png",
+      "source_sha256": "3777572b3d8c37da13ce827b9a1c851caa076bde0b6a563ee935e2a6732eba4f",
+      "destination": "assets/figures/official_harness-drawing.png",
+      "destination_sha256": "3777572b3d8c37da13ce827b9a1c851caa076bde0b6a563ee935e2a6732eba4f",
+      "role": "原研究保存的官方图或官方文档图表摘图"
+    },
+    {
+      "source": "cad/humanoid/figures/official_robot-overview.png",
+      "source_sha256": "cf55a01e9e791385cc45a2b41ad67e0572abf5afe0a1b9fd19dc8a0c0802ecf0",
+      "destination": "assets/figures/official_robot-overview.png",
+      "destination_sha256": "cf55a01e9e791385cc45a2b41ad67e0572abf5afe0a1b9fd19dc8a0c0802ecf0",
+      "role": "原研究保存的官方图或官方文档图表摘图"
+    }
+  ],
+  "excluded": [
+    "raw CAD",
+    "URDF/mesh libraries",
+    "third-party source",
+    "internal code excerpts",
+    "weights",
+    "datasets",
+    "environments",
+    "logs",
+    "duplicate PDF/HTML exports"
+  ]
+}

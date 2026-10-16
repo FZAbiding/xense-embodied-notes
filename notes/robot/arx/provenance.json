@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-16T23:39:09.651118+08:00",
+  "source_date": "2026-10-16",
+  "source_workspace": "cad/arx",
+  "source_identity": "agent-assisted research; exact agent/model unknown",
+  "migration_scope": "summary documents and referenced images only",
+  "verification_scope": "archive and links only; original technical checks not rerun",
+  "source_manifests": [
+    {
+      "path": "cad/arx/data/source_manifest.json",
+      "sha256": "2593f06048fb72e577db8012e21eeabbdd4e643bcea2d38a13878fd22702e096"
+    },
+    {
+      "path": "cad/arx/data/lift_source_manifest.json",
+      "sha256": "e6a5dbe8c2d4c072cffaeffbeb0657a23a5cdc2fc1c6e2555cbb21881ef7b0ad"
+    }
+  ],
+  "documents": [
+    {
+      "source": "cad/arx/REPORT_zh.md",
+      "source_sha256": "4e30172cf26a10425c5479abd0fd63e8d291eb779d97e59824789a11afb443ce",
+      "destination": "report.md",
+      "destination_sha256": "a21885e60539db10b73b6521aa21a5aa972d62632e9a4add6c168bbf5c228174",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/02_mechanical_comparison.md",
+      "source_sha256": "9e1ea21baa3881f9afb01c6cdd21afe2e5572fe6314d62b2fca59cc5a3bbb8d4",
+      "destination": "topics/02_mechanical_comparison.md",
+      "destination_sha256": "48bad10328151192bae5c8d81afabc076147f85cd5d8a3b4a4d7be8174ff97d3",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/03_motors_and_electrical.md",
+      "source_sha256": "9a4d363cb940eb201490638e4fd6b96b0d19eacf7b4027101ac3c7a3cbe18400",
+      "destination": "topics/03_motors_and_electrical.md",
+      "destination_sha256": "ba4e1289475d362dedeb1c6a52916c0ba259bef598efd8b0950cc1641c311f44",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/04_protocol_and_control.md",
+      "source_sha256": "6d5a0731d8c721aefd3e276eb92be2138d07be41333bf3aed7240bb3e0cd6aaa",
+      "destination": "topics/04_protocol_and_control.md",
+      "destination_sha256": "60a892123bb9fa026b9f3d9105abca0adc2cfa2379444f9c01d9b083a4c8dfde",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/05_layout_and_camera_design.md",
+      "source_sha256": "5c3256c43310ccaaedf91a52db70e25a279b264a33c7af9a10d948b86df7e6dd",
+      "destination": "topics/05_layout_and_camera_design.md",
+      "destination_sha256": "e97d22150e67dcb4bcdb31926d4d8e068314a351a3df21da222e9d0d93298192",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/06_build_and_validation_plan.md",
+      "source_sha256": "75519babf8f125a7579d7c7c62c538eb77b9d631b98c1641b30a560286dfcd2f",
+      "destination": "topics/06_build_and_validation_plan.md",
+      "destination_sha256": "c57b4f24aeb6a0aecdfca77d2638748b146424998d79c0b5b21608d7b344f501",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/07_open_questions.md",
+      "source_sha256": "5c7f16e0ad888cff7d8a6e1d750adbcecec268488e91c1cf7927892f2446c471",
+      "destination": "topics/07_open_questions.md",
+      "destination_sha256": "7ed5b7ba1b86c9b7ace19a8ef119da8af3503613e071194f1b631133bb09d15f",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/10_J2_height_comparison.md",
+      "source_sha256": "2b40bc26abc4c7bc6339e7ce48459ac2a8553688af9d008e6721d61a7ac5fa78",
+      "destination": "topics/10_J2_height_comparison.md",
+      "destination_sha256": "81c633e8d41f3e1ad290fb6b9bb84aeb6fa82dca592fcd0281651a02255023ad",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/11_acone_aligned_base_r2.md",
+      "source_sha256": "460df1f6ecde64ada8cc55a385ab57fb7a60d9e23a6e45cf7c08b03aabb68b06",
+      "destination": "topics/11_acone_aligned_base_r2.md",
+      "destination_sha256": "a43ac100ceffd5a5655de5631cb6c0600d790bdc4ad8959a3a9483ae2facc14f",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/12_lift_resources_and_comparison.md",
+      "source_sha256": "106a586134dc97173541cc1e20d6cdea2afe4cff4b5a7e10a503c17223a52194",
+      "destination": "topics/12_lift_resources_and_comparison.md",
+      "destination_sha256": "7382b4795b77979209d33bf4fffb9c36261f4e8597c2a0e2d878c7cea543994a",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/14_arm_reach_comparison.md",
+      "source_sha256": "7c0bfd8845a4b506d6037e61f1ef83eb3c4a0c0b07557696b8b6ae5f610010be",
+      "destination": "topics/14_arm_reach_comparison.md",
+      "destination_sha256": "6711ee308bcde050145b0f31e03b59ed67633f4bf81a5462cbc48fc8cf2657e3",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    },
+    {
+      "source": "cad/arx/docs/15_fall_prevention_and_emergency_stop.md",
+      "source_sha256": "9f002833a7186b023b69df53e7aaf696c4b55b03c0d778809bab7d60e5b4b50b",
+      "destination": "topics/15_fall_prevention_and_emergency_stop.md",
+      "destination_sha256": "071529f0c6c1c4ee8cef29d59a3e3f1c59d953a19efbe13258d4e2665943907c",
+      "changes": [
+        "add snapshot boundary",
+        "rewrite portable links",
+        "replace absolute workspace prefix"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "cad/arx/previews/acone.png",
+      "source_sha256": "11a16273a2cd68a0feeddae4b057cdd90282ef63ca50ffbea2a3c1482afe9474",
+      "destination": "assets/previews/acone.png",
+      "destination_sha256": "11a16273a2cd68a0feeddae4b057cdd90282ef63ca50ffbea2a3c1482afe9474",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/arx/previews/bi_seeed_acone_alignment_r2.png",
+      "source_sha256": "b525c2808ad2398e44fde89d7d2db64b0b1396fb1b7f50fe647613f21fd00ad7",
+      "destination": "assets/previews/bi_seeed_acone_alignment_r2.png",
+      "destination_sha256": "b525c2808ad2398e44fde89d7d2db64b0b1396fb1b7f50fe647613f21fd00ad7",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/arx/previews/bi_seeed_concept.png",
+      "source_sha256": "70aea0d6c909ce42224b605b5ccd43e580886105daf10c8ea0dc8793170a575a",
+      "destination": "assets/previews/bi_seeed_concept.png",
+      "destination_sha256": "70aea0d6c909ce42224b605b5ccd43e580886105daf10c8ea0dc8793170a575a",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/arx/previews/bi_seeed_concept_r1.png",
+      "source_sha256": "31dc8a83fc58f6968d098e508cca3b8baba7a9c56ebcb8c62dd812935d290bb5",
+      "destination": "assets/previews/bi_seeed_concept_r1.png",
+      "destination_sha256": "31dc8a83fc58f6968d098e508cca3b8baba7a9c56ebcb8c62dd812935d290bb5",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/arx/previews/bi_seeed_interior_r2.png",
+      "source_sha256": "69b74b1c303205f1513eab74309552c038939b53e6a169cd44c43f183951eafc",
+      "destination": "assets/previews/bi_seeed_interior_r2.png",
+      "destination_sha256": "69b74b1c303205f1513eab74309552c038939b53e6a169cd44c43f183951eafc",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/arx/previews/fall_prevention_energy_latency.png",
+      "source_sha256": "d28a9b4406a96664a2e534f1172424164394a25e9d6b13dd364de11da3a28288",
+      "destination": "assets/previews/fall_prevention_energy_latency.png",
+      "destination_sha256": "d28a9b4406a96664a2e534f1172424164394a25e9d6b13dd364de11da3a28288",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/arx/previews/lift.png",
+      "source_sha256": "cb78748be9c59970ff37ee736e9e3a5e16d2f9e03faa11f1d16a2692420bc98a",
+      "destination": "assets/previews/lift.png",
+      "destination_sha256": "cb78748be9c59970ff37ee736e9e3a5e16d2f9e03faa11f1d16a2692420bc98a",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/arx/previews/lift_mini.png",
+      "source_sha256": "482df464396a1fa69114eae535d3b630ed0d061fae17d537fe685c72c364564b",
+      "destination": "assets/previews/lift_mini.png",
+      "destination_sha256": "482df464396a1fa69114eae535d3b630ed0d061fae17d537fe685c72c364564b",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/arx/previews/seeed_dm.png",
+      "source_sha256": "aa6e6a99f985a7a59a6dcb71d080b0af584314705d31739119e35997c4521680",
+      "destination": "assets/previews/seeed_dm.png",
+      "destination_sha256": "aa6e6a99f985a7a59a6dcb71d080b0af584314705d31739119e35997c4521680",
+      "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    }
+  ],
+  "excluded": [
+    "raw CAD",
+    "URDF/mesh libraries",
+    "third-party source",
+    "internal code excerpts",
+    "weights",
+    "datasets",
+    "environments",
+    "logs",
+    "duplicate PDF/HTML exports"
+  ]
+}
