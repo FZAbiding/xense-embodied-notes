@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="880" viewBox="0 0 1500 880">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9" fill="#8094a4"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif}</style>
+<rect x="0" y="0" width="1500" height="880" rx="0" fill="#eef3f7" stroke="none"/>
+<text x="48" y="61" font-size="34" fill="#142d43" text-anchor="start" font-weight="700">主动自由度：差别在掌根，不只是 21 与 22</text>
+<text x="48" y="100" font-size="18" fill="#566d80" text-anchor="start" font-weight="400">依据公开关节拓扑绘制｜仅表示运动链，不表示电机位置、轴向或传动形式</text>
+<rect x="48" y="138" width="686" height="600" rx="16" fill="#ffffff" stroke="none"/>
+<rect x="48" y="138" width="686" height="74" rx="16" fill="#2768ba" stroke="none"/>
+<text x="74" y="187" font-size="27" fill="#ffffff" text-anchor="start" font-weight="700">BrainCo Revo 3 · U21</text>
+<text x="673" y="187" font-size="32" fill="#ffffff" text-anchor="end" font-weight="700">21</text>
+<text x="72" y="285" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">拇指</text>
+<line x1="208" y1="278" x2="592" y2="278" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="208" cy="278" r="16" fill="#2768ba"/>
+<text x="208" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="208" y="318" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">A1</text>
+<circle cx="304" cy="278" r="16" fill="#2768ba"/>
+<text x="304" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="304" y="318" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">A2</text>
+<circle cx="400" cy="278" r="16" fill="#2768ba"/>
+<text x="400" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="400" y="318" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">A3</text>
+<circle cx="496" cy="278" r="16" fill="#2768ba"/>
+<text x="496" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="496" y="318" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">A4</text>
+<circle cx="592" cy="278" r="16" fill="#2768ba"/>
+<text x="592" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">5</text>
+<text x="592" y="318" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">A5</text>
+<text x="699" y="285" font-size="23" fill="#2768ba" text-anchor="end" font-weight="700">5</text>
+<text x="72" y="376" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">食指</text>
+<line x1="208" y1="369" x2="496" y2="369" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="208" cy="369" r="16" fill="#2768ba"/>
+<text x="208" y="375" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="208" y="409" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">MCP-AA</text>
+<circle cx="304" cy="369" r="16" fill="#2768ba"/>
+<text x="304" y="375" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="304" y="409" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">MCP-FE</text>
+<circle cx="400" cy="369" r="16" fill="#2768ba"/>
+<text x="400" y="375" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="400" y="409" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">PIP</text>
+<circle cx="496" cy="369" r="16" fill="#2768ba"/>
+<text x="496" y="375" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="496" y="409" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">DIP</text>
+<text x="699" y="376" font-size="23" fill="#2768ba" text-anchor="end" font-weight="700">4</text>
+<text x="72" y="467" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">中指</text>
+<line x1="208" y1="460" x2="496" y2="460" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="208" cy="460" r="16" fill="#2768ba"/>
+<text x="208" y="466" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="208" y="500" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">MCP-AA</text>
+<circle cx="304" cy="460" r="16" fill="#2768ba"/>
+<text x="304" y="466" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="304" y="500" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">MCP-FE</text>
+<circle cx="400" cy="460" r="16" fill="#2768ba"/>
+<text x="400" y="466" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="400" y="500" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">PIP</text>
+<circle cx="496" cy="460" r="16" fill="#2768ba"/>
+<text x="496" y="466" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="496" y="500" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">DIP</text>
+<text x="699" y="467" font-size="23" fill="#2768ba" text-anchor="end" font-weight="700">4</text>
+<text x="72" y="558" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">无名指</text>
+<line x1="208" y1="551" x2="496" y2="551" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="208" cy="551" r="16" fill="#2768ba"/>
+<text x="208" y="557" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="208" y="591" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">MCP-AA</text>
+<circle cx="304" cy="551" r="16" fill="#2768ba"/>
+<text x="304" y="557" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="304" y="591" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">MCP-FE</text>
+<circle cx="400" cy="551" r="16" fill="#2768ba"/>
+<text x="400" y="557" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="400" y="591" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">PIP</text>
+<circle cx="496" cy="551" r="16" fill="#2768ba"/>
+<text x="496" y="557" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="496" y="591" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">DIP</text>
+<text x="699" y="558" font-size="23" fill="#2768ba" text-anchor="end" font-weight="700">4</text>
+<text x="72" y="649" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">小指</text>
+<line x1="208" y1="642" x2="496" y2="642" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="208" cy="642" r="16" fill="#2768ba"/>
+<text x="208" y="648" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="208" y="682" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">MCP-AA</text>
+<circle cx="304" cy="642" r="16" fill="#2768ba"/>
+<text x="304" y="648" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="304" y="682" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">MCP-FE</text>
+<circle cx="400" cy="642" r="16" fill="#2768ba"/>
+<text x="400" y="648" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="400" y="682" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">PIP</text>
+<circle cx="496" cy="642" r="16" fill="#2768ba"/>
+<text x="496" y="648" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="496" y="682" font-size="16" fill="#2768ba" text-anchor="middle" font-weight="400">DIP</text>
+<text x="699" y="649" font-size="23" fill="#2768ba" text-anchor="end" font-weight="700">4</text>
+<text x="72" y="718" font-size="16" fill="#566d80" text-anchor="start" font-weight="400">拇指 A1–A5 为计数占位，不统一两家的关节命名。</text>
+<rect x="766" y="138" width="686" height="600" rx="16" fill="#ffffff" stroke="none"/>
+<rect x="766" y="138" width="686" height="74" rx="16" fill="#007f79" stroke="none"/>
+<text x="792" y="187" font-size="27" fill="#ffffff" text-anchor="start" font-weight="700">Sharpa Wave</text>
+<text x="1391" y="187" font-size="32" fill="#ffffff" text-anchor="end" font-weight="700">22</text>
+<text x="790" y="285" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">拇指</text>
+<line x1="926" y1="278" x2="1310" y2="278" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="926" cy="278" r="16" fill="#007f79"/>
+<text x="926" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="926" y="318" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">A1</text>
+<circle cx="1022" cy="278" r="16" fill="#007f79"/>
+<text x="1022" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="1022" y="318" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">A2</text>
+<circle cx="1118" cy="278" r="16" fill="#007f79"/>
+<text x="1118" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="1118" y="318" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">A3</text>
+<circle cx="1214" cy="278" r="16" fill="#007f79"/>
+<text x="1214" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="1214" y="318" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">A4</text>
+<circle cx="1310" cy="278" r="16" fill="#007f79"/>
+<text x="1310" y="284" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">5</text>
+<text x="1310" y="318" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">A5</text>
+<text x="1417" y="285" font-size="23" fill="#007f79" text-anchor="end" font-weight="700">5</text>
+<text x="790" y="376" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">食指</text>
+<line x1="926" y1="369" x2="1214" y2="369" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="926" cy="369" r="16" fill="#007f79"/>
+<text x="926" y="375" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="926" y="409" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">MCP-FE</text>
+<circle cx="1022" cy="369" r="16" fill="#007f79"/>
+<text x="1022" y="375" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="1022" y="409" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">MCP-AA</text>
+<circle cx="1118" cy="369" r="16" fill="#007f79"/>
+<text x="1118" y="375" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="1118" y="409" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">PIP</text>
+<circle cx="1214" cy="369" r="16" fill="#007f79"/>
+<text x="1214" y="375" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="1214" y="409" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">DIP</text>
+<text x="1417" y="376" font-size="23" fill="#007f79" text-anchor="end" font-weight="700">4</text>
+<text x="790" y="467" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">中指</text>
+<line x1="926" y1="460" x2="1214" y2="460" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="926" cy="460" r="16" fill="#007f79"/>
+<text x="926" y="466" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="926" y="500" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">MCP-FE</text>
+<circle cx="1022" cy="460" r="16" fill="#007f79"/>
+<text x="1022" y="466" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="1022" y="500" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">MCP-AA</text>
+<circle cx="1118" cy="460" r="16" fill="#007f79"/>
+<text x="1118" y="466" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="1118" y="500" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">PIP</text>
+<circle cx="1214" cy="460" r="16" fill="#007f79"/>
+<text x="1214" y="466" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="1214" y="500" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">DIP</text>
+<text x="1417" y="467" font-size="23" fill="#007f79" text-anchor="end" font-weight="700">4</text>
+<text x="790" y="558" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">无名指</text>
+<line x1="926" y1="551" x2="1214" y2="551" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="926" cy="551" r="16" fill="#007f79"/>
+<text x="926" y="557" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="926" y="591" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">MCP-FE</text>
+<circle cx="1022" cy="551" r="16" fill="#007f79"/>
+<text x="1022" y="557" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="1022" y="591" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">MCP-AA</text>
+<circle cx="1118" cy="551" r="16" fill="#007f79"/>
+<text x="1118" y="557" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="1118" y="591" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">PIP</text>
+<circle cx="1214" cy="551" r="16" fill="#007f79"/>
+<text x="1214" y="557" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="1214" y="591" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">DIP</text>
+<text x="1417" y="558" font-size="23" fill="#007f79" text-anchor="end" font-weight="700">4</text>
+<text x="790" y="649" font-size="22" fill="#142d43" text-anchor="start" font-weight="700">小指</text>
+<line x1="926" y1="642" x2="1310" y2="642" stroke="#bdcbd6" stroke-width="8"/>
+<circle cx="926" cy="642" r="16" fill="#bc680c"/>
+<text x="926" y="648" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="926" y="682" font-size="16" fill="#bc680c" text-anchor="middle" font-weight="400">CMC</text>
+<circle cx="1022" cy="642" r="16" fill="#007f79"/>
+<text x="1022" y="648" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="1022" y="682" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">MCP-FE</text>
+<circle cx="1118" cy="642" r="16" fill="#007f79"/>
+<text x="1118" y="648" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="1118" y="682" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">MCP-AA</text>
+<circle cx="1214" cy="642" r="16" fill="#007f79"/>
+<text x="1214" y="648" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">4</text>
+<text x="1214" y="682" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">PIP</text>
+<circle cx="1310" cy="642" r="16" fill="#007f79"/>
+<text x="1310" y="648" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">5</text>
+<text x="1310" y="682" font-size="16" fill="#007f79" text-anchor="middle" font-weight="400">DIP</text>
+<text x="1417" y="649" font-size="23" fill="#007f79" text-anchor="end" font-weight="700">5</text>
+<text x="790" y="718" font-size="16" fill="#566d80" text-anchor="start" font-weight="400">拇指 A1–A5 为计数占位，不统一两家的关节命名。</text>
+<rect x="48" y="758" width="1404" height="76" rx="16" fill="#fff4e6" stroke="none"/>
+<text x="72" y="791" font-size="22" fill="#bc680c" text-anchor="start" font-weight="700">Wave 小指 CMC：掌根参与包络，官方活动范围 0°–25°。</text>
+<text x="72" y="820" font-size="18" fill="#566d80" text-anchor="start" font-weight="400">AA = 展收 / 侧摆；FE = 屈伸。MCP 两轴的组合工作空间需单独检查，不能假定为矩形。</text>
+<text x="48" y="861" font-size="14" fill="#566d80" text-anchor="start" font-weight="400">资料：BrainCo 产品手册；Sharpa Wave 手册第 9、14 页及官方模型。研究整理 / 2026-09-22</text>
+</svg>

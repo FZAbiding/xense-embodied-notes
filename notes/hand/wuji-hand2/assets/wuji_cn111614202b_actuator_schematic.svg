@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .title{font:700 30px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#172033}.sub{font:18px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#526070}.label{font:600 18px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#172033}.small{font:16px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#344050}.tiny{font:14px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#526070}.outline{stroke:#263445;stroke-width:3}.leader{stroke:#48576a;stroke-width:2;fill:none;marker-end:url(#arrow)}.axis{stroke:#9aa6b2;stroke-width:2;stroke-dasharray:9 7}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#48576a"/></marker>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#738091" stroke-width="2" opacity=".34"/></pattern>
+  </defs>
+  <rect width="1400" height="900" fill="#f7f9fc"/>
+  <text x="55" y="52" class="title">CN111614202B 执行器剖面：功能分区示意</text>
+  <text x="55" y="82" class="sub">依据专利图1与说明书重绘；用于理解拓扑，不代表 Wuji Hand 2 实物尺寸或内部构造</text>
+  <line x1="470" y1="95" x2="470" y2="790" class="axis"/><text x="483" y="116" class="tiny">旋转轴线</text>
+  <path d="M180 175H270V710H670V175H760V755H135V175Z" fill="#cad2dc" class="outline"/>
+  <path d="M205 200H270V680H670V200H735V725H160V200Z" fill="url(#hatch)" opacity=".55"/>
+  <text x="85" y="420" class="label">4 外壳</text><path d="M155 412H205" class="leader"/>
+  <rect x="170" y="705" width="580" height="48" rx="7" fill="#96a2b1" class="outline"/>
+  <text x="92" y="744" class="label">5 壳盖</text><path d="M155 736H185" class="leader"/>
+  <rect x="250" y="664" width="440" height="25" rx="5" fill="#42a96b" class="outline"/>
+  <text x="63" y="676" class="label">11 主电路板</text><path d="M180 671H247" class="leader"/>
+  <path d="M270 225H350V570H400V615H540V570H590V225H670V635H270Z" fill="#8795a6" opacity=".86" class="outline"/>
+  <text x="68" y="558" class="label">41 安装架</text><path d="M170 550H310" class="leader"/>
+  <text x="43" y="590" class="small">与外壳固定；承载定子、</text><text x="43" y="612" class="small">内齿圈和轴承</text>
+  <rect x="285" y="300" width="82" height="245" rx="8" fill="#e56a5d" class="outline"/><rect x="573" y="300" width="82" height="245" rx="8" fill="#e56a5d" class="outline"/>
+  <g stroke="#ffd5cd" stroke-width="7"><line x1="300" y1="315" x2="300" y2="530"/><line x1="318" y1="315" x2="318" y2="530"/><line x1="336" y1="315" x2="336" y2="530"/><line x1="354" y1="315" x2="354" y2="530"/><line x1="588" y1="315" x2="588" y2="530"/><line x1="606" y1="315" x2="606" y2="530"/><line x1="624" y1="315" x2="624" y2="530"/><line x1="642" y1="315" x2="642" y2="530"/></g>
+  <text x="52" y="318" class="label">21 定子</text><path d="M140 312H282" class="leader"/><text x="42" y="342" class="tiny">铁芯 + 集中绕组；固定并向壳体导热</text>
+  <path d="M382 290H440V535H500V290H558V575H382Z" fill="#4285c5" opacity=".92" class="outline"/>
+  <rect x="369" y="304" width="18" height="225" fill="#244e78"/><rect x="553" y="304" width="18" height="225" fill="#244e78"/>
+  <text x="93" y="376" class="label">22 转子</text><path d="M170 370H379" class="leader"/><text x="42" y="399" class="tiny">永磁体 223 + 载体 224</text>
+  <text x="427" y="470" class="small" text-anchor="middle" transform="rotate(-90 427 470)">221 环形转子空腔</text>
+  <rect x="440" y="290" width="60" height="285" fill="#4285c5" class="outline"/><rect x="461" y="315" width="18" height="235" fill="#f7f9fc" stroke="#263445" stroke-width="2"/>
+  <text x="713" y="542" class="label">222 空心转子轴</text><path d="M704 535H505" class="leader"/>
+  <rect x="365" y="205" width="38" height="150" fill="#68778a" class="outline"/><rect x="537" y="205" width="38" height="150" fill="#68778a" class="outline"/>
+  <g fill="#f7f9fc"><path d="M403 220l-13 8 13 8zm0 28l-13 8 13 8zm0 28l-13 8 13 8zm0 28l-13 8 13 8zm0 28l-13 8 13 8z"/><path d="M537 220l13 8-13 8zm0 28l13 8-13 8zm0 28l13 8-13 8zm0 28l13 8-13 8zm0 28l13 8-13 8z"/></g>
+  <rect x="444" y="220" width="52" height="138" rx="8" fill="#f3a340" class="outline"/>
+  <circle cx="420" cy="276" r="36" fill="#ffc85b" class="outline"/><circle cx="520" cy="276" r="36" fill="#ffc85b" class="outline"/><circle cx="420" cy="276" r="10" fill="#f7f9fc" class="outline"/><circle cx="520" cy="276" r="10" fill="#f7f9fc" class="outline"/>
+  <text x="784" y="210" class="label">33 内齿圈（固定）</text><path d="M776 216H575" class="leader"/>
+  <text x="784" y="259" class="label">32 行星齿轮</text><path d="M776 265H559" class="leader"/>
+  <text x="784" y="309" class="label">31 太阳齿轮</text><path d="M776 315H497" class="leader"/>
+  <path d="M405 275H430V170H510V275H535V150H705V112H235V150H405Z" fill="#e0ad39" opacity=".94" class="outline"/>
+  <rect x="215" y="105" width="510" height="48" rx="6" fill="#e0ad39" class="outline"/>
+  <text x="784" y="130" class="label">34 法兰行星架（输出）</text><path d="M776 136H712" class="leader"/><text x="784" y="158" class="tiny">行星架与输出法兰一体；低速、大转矩</text>
+  <g fill="#eef2f6" stroke="#4e5e70" stroke-width="5"><rect x="388" y="548" width="52" height="28" rx="6"/><rect x="500" y="548" width="52" height="28" rx="6"/><rect x="432" y="172" width="76" height="26" rx="6"/><rect x="325" y="147" width="42" height="28" rx="6"/><rect x="573" y="147" width="42" height="28" rx="6"/></g>
+  <text x="780" y="405" class="small">121：转子 ↔ 安装架</text><path d="M772 410H548V563" class="leader"/>
+  <text x="780" y="438" class="small">122：输出机构 ↔ 转子</text><path d="M772 443H508V188" class="leader"/>
+  <text x="780" y="471" class="small">123：输出机构 ↔ 安装架</text><path d="M772 476H610V162" class="leader"/>
+  <rect x="405" y="595" width="130" height="22" rx="10" fill="#a66bd6" class="outline"/><rect x="443" y="642" width="54" height="22" rx="4" fill="#76509b" class="outline"/>
+  <text x="782" y="589" class="label">13 电机侧编码器</text><text x="782" y="615" class="small">131 转子磁环 + 132 板上读取芯片</text><path d="M772 600H537" class="leader"/>
+  <rect x="267" y="126" width="58" height="20" rx="9" fill="#a66bd6" class="outline"/><rect x="270" y="176" width="26" height="32" rx="4" fill="#42a96b" class="outline"/><path d="M283 208V650H250" stroke="#a66a3a" stroke-width="5" fill="none"/>
+  <text x="782" y="650" class="label">14 输出侧编码器</text><text x="782" y="676" class="small">141 输出磁环 + 142 固定霍尔读取板</text><text x="782" y="702" class="small">143 导线经定子限位槽接主电路板</text><path d="M772 661H700V770H283V211" class="leader"/>
+  <rect x="1020" y="110" width="330" height="640" rx="18" fill="#fff" stroke="#d0d7e2" stroke-width="2"/>
+  <text x="1050" y="155" class="label">三套构件的运动关系</text>
+  <rect x="1050" y="182" width="28" height="28" fill="#68778a"/><text x="1090" y="203" class="small">固定件</text><text x="1050" y="231" class="tiny">外壳 4 / 安装架 41 / 内齿圈 33</text>
+  <rect x="1050" y="264" width="28" height="28" fill="#4285c5"/><text x="1090" y="285" class="small">高速输入件</text><text x="1050" y="313" class="tiny">转子 22 / 轴 222 / 太阳轮 31</text>
+  <rect x="1050" y="346" width="28" height="28" fill="#e0ad39"/><text x="1090" y="367" class="small">低速输出件</text><text x="1050" y="395" class="tiny">行星轮 32 / 行星架与法兰 34</text>
+  <path d="M1080 438H1300" stroke="#4285c5" stroke-width="10" marker-end="url(#arrow)"/><text x="1050" y="472" class="small">电磁转矩 → 转子/太阳轮</text>
+  <path d="M1080 505H1300" stroke="#e0ad39" stroke-width="10" marker-end="url(#arrow)"/><text x="1050" y="539" class="small">减速增矩 → 行星架/法兰</text>
+  <text x="1050" y="590" class="label">固定内齿圈时</text><text x="1050" y="628" class="label">i = ωs / ωc = 1 + Zr / Zs</text><text x="1050" y="658" class="tiny">专利给出的可选减速比：3–10</text><text x="1050" y="686" class="tiny">s：太阳轮；r：内齿圈；c：行星架</text>
+  <rect x="135" y="800" width="1215" height="65" rx="14" fill="#e8f1fb" stroke="#8bb2d9" stroke-width="2"/>
+  <text x="165" y="829" class="label">紧凑性的本质：</text><text x="315" y="829" class="small">大内孔环形转子包住单级行星传动，使“电机长度”和“减速器长度”在轴向重叠；</text><text x="165" y="855" class="small">定子直接贴壳散热，主板和电机侧编码器放到底盖，输出编码器放在法兰外周。</text>
+</svg>

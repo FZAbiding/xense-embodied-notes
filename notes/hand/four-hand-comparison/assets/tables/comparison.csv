@@ -1,0 +1,36 @@
+product,metric,value,unit,condition,source_url,checked_or_inherited_date
+Wuji Hand 2.2 Beta,active_dof,20,count,four per finger,https://docs.wuji.tech/docs/en/wuji-hand/latest/overview/,2026-09-23
+Wuji Hand 2.2 Beta,bare_mass,650,g,bare hand not installed assembly,https://docs.wuji.tech/docs/en/wuji-hand/latest/overview/,2026-09-23
+Wuji Hand 2.2 Beta,curb_mass,800,g,soft pads and output cables included base excluded,https://docs.wuji.tech/docs/en/wuji-hand/latest/overview/,2026-09-23
+Wuji Hand 2.2 Beta,dimensions,180x80x40,mm,pose dependent reference,https://docs.wuji.tech/docs/en/wuji-hand/latest/overview/,2026-09-23
+Wuji Hand 2.2 Beta,joint_message_rate,1000,Hz,all 20 axes in one message not FOC rate,https://docs.wuji.tech/docs/en/wuji-hand/latest/control-guide/,2026-09-23
+Wuji Hand 2.2 Beta,effort_unit,A,unit,current not torque,https://docs.wuji.tech/docs/en/wuji-hand/latest/control-guide/,2026-09-23
+Wuji Hand 2.2 Beta,fingertip_points,176,count,40 thumb plus 34 each other finger per official example,https://github.com/wuji-technology/wuji-sdk/blob/f36a41969d8754ef364a34b59196e4d7e211599f/examples/python/wuji_hand_2/3.fingertip_typed.py,2026-09-23
+Wuji Hand 2.2 Beta,fingertip_rate,100,Hz,example states rate verify actual sensor metadata,https://github.com/wuji-technology/wuji-sdk/blob/f36a41969d8754ef364a34b59196e4d7e211599f/examples/python/wuji_hand_2/3.fingertip_typed.py,2026-09-23
+Sharpa Wave,active_dof,22,count,5+4+4+4+5,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+Sharpa Wave,mass,1300,g,manufacturer product mass accessory boundary to confirm,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+Sharpa Wave,dimensions,208x90x50,mm,manufacturer envelope,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+Sharpa Wave,joint_control_feedback_rate,500,Hz,external interface not FOC rate,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+Sharpa Wave,effort_unit,Nm,unit,default current estimate plus selectable root sensor feedback,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+Sharpa Wave,active_fingertip_force,20,N,maximum not continuous torque,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+Sharpa Wave,tactile_force_resolution,0.02,N,not absolute accuracy,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+Sharpa Wave,tactile_spatial_resolution,1,mm,manufacturer stated metric,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+Sharpa Wave,high_performance_raw_image_rate,180,Hz,raw image stream only not all processed outputs,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+Sharpa Wave,high_performance_latency,20,ms,manufacturer stated mode latency,https://documentationpdf.sharpa.com/api/pdf/wave,2026-09-22
+OmniHand 3 Ultra-M,active_dof,20,count,four per finger confirmed in SDK,https://www.agilink-ai.com/ultra-m.html,2026-09-23
+OmniHand 3 Ultra-M,mass,630,g,manufacturer mass cable and skin boundary to confirm,https://www.agilink-ai.com/ultra-m.html,2026-09-23
+OmniHand 3 Ultra-M,dimensions,189.5x88.5x40,mm,manufacturer envelope,https://www.agilink-ai.com/ultra-m.html,2026-09-23
+OmniHand 3 Ultra-M,stable_grasping,3,kg,not single fingertip force,https://www.agilink-ai.com/ultra-m.html,2026-09-23
+OmniHand 3 Ultra-M,lifting_capacity,8,kg,not single fingertip force,https://www.agilink-ai.com/ultra-m.html,2026-09-23
+OmniHand 3 Ultra-M,joint_control_rate,,Hz,not verified do not borrow O10 O12 rates,https://github.com/AgibotTech/agillink_omnihand_sdk/blob/026740d9fdd8ba32b0605fa702a992b322076f1b/doc/en/API_ROS2.md,2026-09-23
+OmniHand 3 Ultra-M,palm_tactile_points,300,count,3D palm tactile not fingertip image pixels,https://www.agilink-ai.com/ultra-m.html,2026-09-23
+OmniHand 3 Ultra-M,fingertip_force_resolution,0.005,N,not absolute accuracy,https://www.agilink-ai.com/ultra-m.html,2026-09-23
+OmniHand 3 Ultra-M,fingertip_spatial_resolution,0.04,mm,not standardized against other products,https://www.agilink-ai.com/ultra-m.html,2026-09-23
+Revo 3 U21 series,active_dof,21,count,5+4+4+4+4,https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html,2026-09-22
+Revo 3 U21 series,mass,,g,not listed in checked product manual do not use URDF mass,https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html,2026-09-22
+Revo 3 U21 series,dimensions,216x108x50,mm,manufacturer envelope,https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html,2026-09-22
+Revo 3 U21 series,communication_rate,500,Hz,external communication nominal not FOC rate,https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html,2026-09-22
+Revo 3 U21 series,effort_unit,mA,unit,no calibrated Nm model in SDK,https://github.com/BrainCoTech/brainco-revo3-sdk/blob/main/docs/device/REVO3_MOTOR_API.md,2026-09-23
+Revo 3 U21 series,maximum_fingertip_pinch_force,>=25,N,pinch definition and conditions must be unified,https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html,2026-09-22
+Revo 3 U21T,piezoresistive_points,451,count,formal manual rather than old staging value,https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html,2026-09-22
+Revo 3 U21VT,piezoresistive_points,336,count,additional 2000 markers are a different metric,https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html,2026-09-22

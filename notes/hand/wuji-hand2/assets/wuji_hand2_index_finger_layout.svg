@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .t{font:700 30px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#172033}.h{font:700 21px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#172033}.b{font:17px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#344050}.s{font:14px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#526070}.n{font:700 17px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#fff}.dim{stroke:#68788a;stroke-width:2;marker-start:url(#arr);marker-end:url(#arr)}.lead{stroke:#4d5d70;stroke-width:2.2;fill:none;marker-end:url(#arr)}.outline{stroke:#273649;stroke-width:3}.axisx{stroke:#2878bd;stroke-width:4}.axisy{stroke:#d45a4c;stroke-width:4}.fpc{stroke:#d8892b;stroke-width:10;fill:none;stroke-linecap:round;stroke-dasharray:18 8}
+    </style>
+    <marker id="arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#68788a"/></marker>
+    <linearGradient id="metal" x1="0" x2="1"><stop offset="0" stop-color="#8995a3"/><stop offset=".5" stop-color="#e8edf2"/><stop offset="1" stop-color="#7c8997"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#f7f9fc"/>
+  <text x="55" y="52" class="t">Wuji Hand 2 食指展开：四关节模组的串联布局</text>
+  <text x="55" y="82" class="b">依据官方 Beta 2 MJCF/URDF 的关节树、轴向与轴距重绘；内部电机—输出连接为高置信度工程推断，不是 Hand 2 拆机图</text>
+
+  <!-- panel A -->
+  <rect x="45" y="110" width="1510" height="420" rx="18" fill="#fff" stroke="#d3dae4" stroke-width="2"/>
+  <text x="75" y="150" class="h">A. 中立展开位的运动链（由掌部向指尖）</text>
+  <rect x="75" y="212" width="170" height="185" rx="22" fill="url(#metal)" class="outline"/>
+  <text x="160" y="286" text-anchor="middle" class="h">掌骨/腕掌</text>
+  <text x="160" y="315" text-anchor="middle" class="s">固定基座</text>
+
+  <!-- links -->
+  <rect x="277" y="276" width="82" height="58" rx="15" fill="#303b49" class="outline"/>
+  <rect x="359" y="259" width="210" height="92" rx="26" fill="url(#metal)" class="outline"/>
+  <rect x="569" y="270" width="165" height="70" rx="22" fill="url(#metal)" class="outline"/>
+  <rect x="734" y="278" width="139" height="55" rx="20" fill="url(#metal)" class="outline"/>
+  <path d="M873 280H970Q1010 280 1035 305Q1010 335 970 340H873Z" fill="#252d39" class="outline"/>
+
+  <!-- actuators -->
+  <g>
+    <circle cx="250" cy="305" r="52" fill="#2878bd" class="outline"/><circle cx="250" cy="305" r="30" fill="#e7edf4" class="outline"/><circle cx="250" cy="305" r="7" fill="#2878bd"/>
+    <circle cx="330" cy="305" r="44" fill="#d45a4c" class="outline"/><circle cx="330" cy="305" r="24" fill="#f4e4e1" class="outline"/>
+    <circle cx="569" cy="305" r="47" fill="#2878bd" class="outline"/><circle cx="569" cy="305" r="27" fill="#e7edf4" class="outline"/><circle cx="569" cy="305" r="7" fill="#2878bd"/>
+    <circle cx="734" cy="305" r="42" fill="#2878bd" class="outline"/><circle cx="734" cy="305" r="23" fill="#e7edf4" class="outline"/><circle cx="734" cy="305" r="7" fill="#2878bd"/>
+  </g>
+  <!-- axis symbols -->
+  <circle cx="250" cy="305" r="13" fill="none" class="axisx"/><circle cx="250" cy="305" r="4" fill="#2878bd"/>
+  <line x1="330" y1="250" x2="330" y2="360" class="axisy"/><path d="M322 260l8-13 8 13M322 350l8 13 8-13" fill="none" class="axisy"/>
+  <circle cx="569" cy="305" r="13" fill="none" class="axisx"/><circle cx="569" cy="305" r="4" fill="#2878bd"/>
+  <circle cx="734" cy="305" r="13" fill="none" class="axisx"/><circle cx="734" cy="305" r="4" fill="#2878bd"/>
+
+  <!-- labels -->
+  <g class="b" text-anchor="middle">
+    <text x="250" y="190">J0 MCP 屈伸</text><text x="250" y="213" class="s">局部 X 轴；模型 ±2 N·m</text>
+    <text x="330" y="395">J1 MCP 侧摆</text><text x="330" y="417" class="s">局部 Y 轴；与 J0 正交</text>
+    <text x="569" y="190">J2 PIP 屈伸</text><text x="569" y="213" class="s">局部 X 轴；模型 ±0.3 N·m</text>
+    <text x="734" y="395">J3 DIP 屈伸</text><text x="734" y="417" class="s">局部 X 轴；模型 ±0.3 N·m</text>
+    <text x="965" y="382">指尖触觉垫</text><text x="965" y="404" class="s">Beta 2 模型质量约 3 g</text>
+  </g>
+
+  <!-- dimensions -->
+  <g class="s" text-anchor="middle">
+    <line x1="250" y1="458" x2="330" y2="458" class="dim"/><text x="290" y="483">14.5 mm</text>
+    <line x1="330" y1="458" x2="569" y2="458" class="dim"/><text x="449" y="483">37.6 mm</text>
+    <line x1="569" y1="458" x2="734" y2="458" class="dim"/><text x="651" y="483">29.5 mm</text>
+    <line x1="734" y1="458" x2="873" y2="458" class="dim"/><text x="803" y="483">24.75 mm 至 tip site</text>
+  </g>
+
+  <!-- FPC -->
+  <path d="M205 365C320 380 430 368 555 366S760 360 907 355" class="fpc"/>
+  <text x="1080" y="215" class="h">串联连接关系</text>
+  <text x="1080" y="252" class="b">掌部 → J0 → 短中间架 → J1</text>
+  <text x="1080" y="281" class="b">→ 近节 → J2 → 中节 → J3</text>
+  <text x="1080" y="310" class="b">→ 远节/指尖触觉</text>
+  <text x="1080" y="356" class="b">橙色虚线：可见柔性排线的概念路径</text>
+  <text x="1080" y="385" class="s">它传电和信号，不承担机械驱动力。</text>
+  <text x="1080" y="422" class="b">蓝色 ⊙：局部 X 轴指向图外</text>
+  <text x="1080" y="450" class="b">红色 ↕：J1 局部 Y 轴，与 X 正交</text>
+  <text x="1080" y="478" class="s">J1 转动后，下游 PIP/DIP 轴随整根手指转动。</text>
+
+  <!-- panel B -->
+  <rect x="45" y="555" width="735" height="395" rx="18" fill="#fff" stroke="#d3dae4" stroke-width="2"/>
+  <text x="75" y="598" class="h">B. PIP / DIP：最可能是关节轴同轴执行器</text>
+  <text x="75" y="627" class="s">示意一个关节；PIP、DIP 拓扑相同，尺寸/额定值未公开</text>
+
+  <rect x="85" y="730" width="235" height="100" rx="22" fill="url(#metal)" class="outline"/>
+  <text x="202" y="786" text-anchor="middle" class="b">父级指骨壳体</text>
+  <circle cx="345" cy="780" r="105" fill="#cad2dd" class="outline"/>
+  <circle cx="345" cy="780" r="83" fill="#e25f50" class="outline"/>
+  <circle cx="345" cy="780" r="58" fill="#3c82bf" class="outline"/>
+  <circle cx="345" cy="780" r="32" fill="#e4ae39" class="outline"/>
+  <rect x="370" y="734" width="300" height="92" rx="25" fill="url(#metal)" class="outline"/>
+  <text x="545" y="788" text-anchor="middle" class="b">子级指骨壳体</text>
+  <path d="M345 670V890" class="axisx"/>
+  <text x="345" y="912" text-anchor="middle" class="s">关节输出轴线 / 推测电机转子轴线</text>
+  <path d="M133 690H258" class="lead"/><text x="82" y="681" class="s">定子/外壳固定在父级</text>
+  <path d="M600 690H430" class="lead"/><text x="476" y="681" class="s">减速输出法兰固定子级</text>
+  <text x="78" y="874" class="s">红：定子　蓝：转子/输入　黄：低速输出</text>
+
+  <!-- panel C -->
+  <rect x="805" y="555" width="750" height="395" rx="18" fill="#fff" stroke="#d3dae4" stroke-width="2"/>
+  <text x="835" y="598" class="h">C. MCP 两轴：整只模组转 90°串联，不等于内部变轴</text>
+  <rect x="845" y="730" width="170" height="120" rx="20" fill="url(#metal)" class="outline"/>
+  <circle cx="1035" cy="790" r="78" fill="#2878bd" class="outline"/>
+  <circle cx="1035" cy="790" r="19" fill="none" class="axisx"/><circle cx="1035" cy="790" r="6" fill="#2878bd"/>
+  <path d="M1090 742H1170V838H1090" fill="#313c4a" class="outline"/>
+  <circle cx="1195" cy="790" r="68" fill="#d45a4c" class="outline"/>
+  <line x1="1195" y1="700" x2="1195" y2="880" class="axisy"/>
+  <path d="M1187 711l8-13 8 13M1187 869l8 13 8-13" fill="none" class="axisy"/>
+  <rect x="1245" y="747" width="255" height="86" rx="24" fill="url(#metal)" class="outline"/>
+  <text x="930" y="705" class="b">掌部</text><text x="1035" y="900" text-anchor="middle" class="s">J0 屈伸轴 X</text><text x="1195" y="900" text-anchor="middle" class="s">J1 侧摆轴 Y</text>
+  <text x="1368" y="790" text-anchor="middle" class="b">下游近节、PIP、DIP</text>
+  <line x1="1035" y1="678" x2="1195" y2="678" class="dim"/><text x="1115" y="665" text-anchor="middle" class="s">模型轴点沿指向偏置 14.5 mm</text>
+  <text x="840" y="634" class="s">J0 的低速输出带动整个 J1 模组及其下游；J1 再带动近节和 PIP/DIP。</text>
+  <text x="840" y="657" class="s">公开资料未显示伞齿轮、万向节或从近端延伸到 DIP 的机械传动轴。</text>
+
+  <rect x="835" y="915" width="690" height="25" rx="8" fill="#eaf2fb"/>
+  <text x="850" y="933" class="s">结论置信度：输出轴位置/轴向＝官方模型；电机与输出同轴＝外观+专利支持的高概率推断，仍需 Hand 2 拆解确认。</text>
+</svg>

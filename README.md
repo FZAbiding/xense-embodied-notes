@@ -5,10 +5,13 @@
 
 从 [全部笔记](INDEX.md) 或 [分类入口](notes/README.md) 开始阅读。
 
-当前首批：
+已收录的阶段总结：
 
 - [RoboParty RP1：机械、执行器与算法](notes/humanoid/roboparty-rp1/README.md)
 - [ARX / Seeed B601-DM：双臂平台与控制](notes/robot/arx/README.md)
+- [Wuji Hand 2：机械结构、驱动与产品边界](notes/hand/wuji-hand2/README.md)
+- [Revo 3 与 Sharpa Wave：结构、控制与触觉对比](notes/hand/revo3-vs-sharpa/README.md)
+- [Wuji、Wave、OmniHand、Revo：四款灵巧手对比](notes/hand/four-hand-comparison/README.md)
 
 分类以产品和算法展开：`cad`、`humanoid`、`rl`、`vla`、`wam`、`ego`、`hardware`、`robot`、`umi`、`sim`，
 补充 `hand`、`teleop`、`data`。例如 π0.5 的总结放在 `notes/vla/pi05/`，源码与权重保留在原研究工程。

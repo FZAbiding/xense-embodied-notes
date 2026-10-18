@@ -16,6 +16,6 @@
 | [robot · 机械臂与机器人平台](robot/README.md) | 机械臂、双臂、移动操作等非人形整机平台的综合研究 | 1 |
 | [umi · UMI 与手持数采](umi/README.md) | UMI路线、手持示教装置和对应数据采集方法 | 0 |
 | [sim · 机器人仿真](sim/README.md) | 仿真平台、物理建模、仿真评估与sim-to-real方法 | 0 |
-| [hand · 灵巧手](hand/README.md) | 灵巧手产品、机构驱动、感知和整手能力比较 | 0 |
+| [hand · 灵巧手](hand/README.md) | 灵巧手产品、机构驱动、感知和整手能力比较 | 3 |
 | [teleop · 遥操作与动作映射](teleop/README.md) | 遥操作系统、手套、retargeting和控制映射专题 | 0 |
 | [data · 具身数据工程](data/README.md) | 多模态数据格式、同步、标注、质检与数据生产 | 0 |

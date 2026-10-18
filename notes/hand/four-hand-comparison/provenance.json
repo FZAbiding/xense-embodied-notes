@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-18T17:26:10.499793+08:00",
+  "source_date": "2026-09-23",
+  "source_workspace": "src/wuji-research/four-hand-comparison",
+  "source_identity": "agent-assisted research; exact agent/model unknown",
+  "migration_scope": "completed reports, original analytical diagrams, compact comparison table and source records",
+  "verification_scope": "archive integrity and local links only; no new product/source/hardware validation",
+  "documents": [
+    {
+      "source": "src/wuji-research/four-hand-comparison/四款高自由度灵巧手对比调研.md",
+      "source_sha256": "86a9f7297f63854addaaee34ba2d0f28e817cad1a86af282242c5aa9a2100fa0",
+      "destination": "report.md",
+      "destination_sha256": "87140841b3c2a3bb3761f2381e04ff22ff7e9e8152f97562dee3cee00ec61d2c",
+      "changes": [
+        "add historical snapshot boundary",
+        "rewrite portable source links",
+        "reference official media externally",
+        "adapt package sharing instructions"
+      ]
+    },
+    {
+      "source": "src/wuji-research/four-hand-comparison/sources/SOURCES.md",
+      "source_sha256": "04adb7c9a4e0c22d993b111cf842d384b6c8d4304953494a304d6da96196a749",
+      "destination": "sources.md",
+      "destination_sha256": "33085df8d66236197d1842b651caded9a94dde740263cea838b1cf2fc20b13e6",
+      "changes": [
+        "retain research sources and version boundaries",
+        "replace original package/media section",
+        "add archive provenance, external-media mapping and compact audit summary"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "src/wuji-research/four-hand-comparison/assets/diagrams/01_structure_mass.png",
+      "source_sha256": "82cbbeb8bba3eefca9b8e59eb12e9e43754b9f4636e8c8b6691f81aefc4539e7",
+      "destination": "assets/diagrams/01_structure_mass.png",
+      "destination_sha256": "82cbbeb8bba3eefca9b8e59eb12e9e43754b9f4636e8c8b6691f81aefc4539e7",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    },
+    {
+      "source": "src/wuji-research/four-hand-comparison/assets/diagrams/01_structure_mass.svg",
+      "source_sha256": "a8c10063da313dd846a5061df4910632c611d7fa57a7b5efd3d003af3af7a04a",
+      "destination": "assets/diagrams/01_structure_mass.svg",
+      "destination_sha256": "a8c10063da313dd846a5061df4910632c611d7fa57a7b5efd3d003af3af7a04a",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    },
+    {
+      "source": "src/wuji-research/four-hand-comparison/assets/diagrams/02_control_evidence.png",
+      "source_sha256": "c17140e03a2144da246ce7b9684584247a11c56d0ae2d30cceaa7af2fae7632c",
+      "destination": "assets/diagrams/02_control_evidence.png",
+      "destination_sha256": "c17140e03a2144da246ce7b9684584247a11c56d0ae2d30cceaa7af2fae7632c",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    },
+    {
+      "source": "src/wuji-research/four-hand-comparison/assets/diagrams/02_control_evidence.svg",
+      "source_sha256": "e012efa8523550360033a76926446665cb0200cae5ca168e354c8d72b321d412",
+      "destination": "assets/diagrams/02_control_evidence.svg",
+      "destination_sha256": "e012efa8523550360033a76926446665cb0200cae5ca168e354c8d72b321d412",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    },
+    {
+      "source": "src/wuji-research/four-hand-comparison/data/comparison.csv",
+      "source_sha256": "c7fa72a02ea6c00e88453c62c508026a70e6981c2490edba103a3835aca9e952",
+      "destination": "assets/tables/comparison.csv",
+      "destination_sha256": "c7fa72a02ea6c00e88453c62c508026a70e6981c2490edba103a3835aca9e952",
+      "role": "原研究整理的参数与来源对照表，保留缺失值和核验日期"
+    }
+  ],
+  "source_materials": [
+    {
+      "path": "src/wuji-research/four-hand-comparison/sources/manifest.json",
+      "sha256": "a82288a5cba6f9c9feb34f73c1acd29e41da5109df125be3253a4bf937f2a350"
+    }
+  ],
+  "external_assets": [
+    {
+      "source": "src/wuji-research/four-hand-comparison/assets/official/omnihand_ultra_m.png",
+      "mode": "official external reference; file not copied",
+      "file": "assets/official/omnihand_ultra_m.png",
+      "url": "https://www.agilink-ai.com/uploads/upload/images/20260709/7a0a372bd3ddfd2f1fea150e9ea74984.png",
+      "page": "https://www.agilink-ai.com/ultra-m.html",
+      "owner": "AGILINK",
+      "retrieved": "2026-09-23",
+      "packaged": "2026-09-23",
+      "sha256": "903f776a68ca438859e0216ef69ec3dcd14b26e67c7b5be114843b86bf3d8d6b",
+      "bytes": 51926,
+      "content_type": "image/png",
+      "reused_prior_report": false,
+      "modified": false
+    },
+    {
+      "source": "src/wuji-research/four-hand-comparison/assets/official/revo3_product.png",
+      "mode": "official external reference; file not copied",
+      "file": "assets/official/revo3_product.png",
+      "url": "https://www.brainco-hz.com/docs/revolimb-hand/images/revo3_rendering.png",
+      "page": "https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html",
+      "owner": "BrainCo",
+      "retrieved": "2026-09-22",
+      "packaged": "2026-09-23",
+      "sha256": "2825f580529b93d6dbc957c9bd4c00e126fc50d50db9d6fbf31e71bc46167a00",
+      "bytes": 148078,
+      "content_type": "image/png",
+      "reused_prior_report": true,
+      "modified": false
+    },
+    {
+      "source": "src/wuji-research/four-hand-comparison/assets/official/sharpa_wave_product.jpg",
+      "mode": "official external reference; file not copied",
+      "file": "assets/official/sharpa_wave_product.jpg",
+      "url": "https://www.sharpa.com/cdn/shop/files/Codex_2026_8_17_17_57_19.jpg?v=1787034361&width=1200",
+      "page": "https://www.sharpa.com/pages/wave",
+      "owner": "Sharpa",
+      "retrieved": "2026-09-22",
+      "packaged": "2026-09-23",
+      "sha256": "4f5c154763d142a25e1af1c3ab213cb09a46d28fe82673418c530ef44a713460",
+      "bytes": 13896,
+      "content_type": "image/jpeg",
+      "reused_prior_report": true,
+      "modified": false
+    },
+    {
+      "source": "src/wuji-research/four-hand-comparison/assets/official/wuji_structure.png",
+      "mode": "official external reference; file not copied",
+      "file": "assets/official/wuji_structure.png",
+      "url": "https://docs.wuji.tech/_next/static/media/structure-white.1f578143.png",
+      "page": "https://docs.wuji.tech/docs/en/wuji-hand/latest/overview/",
+      "owner": "WUJI TECH",
+      "retrieved": "2026-09-23",
+      "packaged": "2026-09-23",
+      "sha256": "6b71995f69e0ccbf968a9e6861b1e4bde7066fa8b7e880d58dd3729a74011c96",
+      "bytes": 1263645,
+      "content_type": "image/png",
+      "reused_prior_report": false,
+      "modified": false
+    }
+  ],
+  "excluded": [
+    "official image files and manual page screenshots",
+    "raw CAD/URDF/mesh",
+    "teaching model bundles",
+    "SDK and source code",
+    "weights and datasets",
+    "environments and generation scripts",
+    "unreferenced media"
+  ]
+}

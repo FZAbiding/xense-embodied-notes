@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-18T17:26:10.499793+08:00",
+  "source_date": "2026-09-22",
+  "source_workspace": "src/wuji-research/revo3-vs-sharpa",
+  "source_identity": "agent-assisted research; exact agent/model unknown",
+  "migration_scope": "completed reports, original analytical diagrams, compact comparison table and source records",
+  "verification_scope": "archive integrity and local links only; no new product/source/hardware validation",
+  "documents": [
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/强脑 Revo 3 与 Sharpa Wave 对比调研.md",
+      "source_sha256": "71b953fe70b95276c239c33eeee53983d8f3e08b4f2317600c9005837dbb61f0",
+      "destination": "report.md",
+      "destination_sha256": "6328fb273ed1167e0536fee920345d8e27718eb4267c6ecb233e3f1abd601a8a",
+      "changes": [
+        "add historical snapshot boundary",
+        "rewrite portable source links",
+        "reference official media externally",
+        "adapt package sharing instructions"
+      ]
+    },
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/sources/SOURCES.md",
+      "source_sha256": "ed252b553bf84f805e4e32c88601e6bc47cc7da25534c77fed70241f47c08bd2",
+      "destination": "sources.md",
+      "destination_sha256": "9324b1de75acee78e4ff2b1acc476ff3b6ec393e9dd9fc3345c4e745a9c7f809",
+      "changes": [
+        "retain research sources and version boundaries",
+        "replace original package/media section",
+        "add archive provenance, external-media mapping and compact audit summary"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/assets/diagrams/01_kinematic_topology.png",
+      "source_sha256": "3ca423c946551e73c3e59f4e52d686d2563b5e07ffa8e95fb6389f4b144a2946",
+      "destination": "assets/diagrams/01_kinematic_topology.png",
+      "destination_sha256": "3ca423c946551e73c3e59f4e52d686d2563b5e07ffa8e95fb6389f4b144a2946",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    },
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/assets/diagrams/01_kinematic_topology.svg",
+      "source_sha256": "2779647e0a6856bb71822ae6e8feabc289e07c3053b3f251595a39f054d62bde",
+      "destination": "assets/diagrams/01_kinematic_topology.svg",
+      "destination_sha256": "2779647e0a6856bb71822ae6e8feabc289e07c3053b3f251595a39f054d62bde",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    },
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/assets/diagrams/02_control_sensing.png",
+      "source_sha256": "47e1c35a25d594a7af6cdd88b7a68701e51373ace6fb65ca366ab15955f10c6d",
+      "destination": "assets/diagrams/02_control_sensing.png",
+      "destination_sha256": "47e1c35a25d594a7af6cdd88b7a68701e51373ace6fb65ca366ab15955f10c6d",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    },
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/assets/diagrams/02_control_sensing.svg",
+      "source_sha256": "05fdec308dfec44169a6261fe744483b038e523d14f87d5678efc05d940afd67",
+      "destination": "assets/diagrams/02_control_sensing.svg",
+      "destination_sha256": "05fdec308dfec44169a6261fe744483b038e523d14f87d5678efc05d940afd67",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    }
+  ],
+  "source_materials": [
+    {
+      "path": "src/wuji-research/revo3-vs-sharpa/sources/asset_manifest.json",
+      "sha256": "7adcbad7e028d553cd3b87767b497c958c0cc1118e1a55e03259a4340c660c11"
+    },
+    {
+      "path": "src/wuji-research/revo3-vs-sharpa/sources/manual_figure_manifest.json",
+      "sha256": "1d7ed5d0ef5f944485167c3d158b948b257dc646e9e1dcdfc5a520abb70d4393"
+    },
+    {
+      "path": "src/wuji-research/revo3-vs-sharpa/sources/model_audit.json",
+      "sha256": "46af825ad0b6ba9d86d30760a031e11c284503e8475e48bf7b550bf7e323a924"
+    }
+  ],
+  "external_assets": [
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/assets/official/revo3_dof.png",
+      "mode": "official external reference; file not copied",
+      "file": "assets/official/revo3_dof.png",
+      "url": "https://www.brainco-hz.com/docs/revolimb-hand/images/revo3_dof_distribution.png",
+      "page": "https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html",
+      "owner": "BrainCo",
+      "retrieved": "2026-09-22",
+      "sha256": "89c507525e0376107e283b778b7b716782bcf79ce30d0903f8cbf1b8e1514d55",
+      "bytes": 176413,
+      "content_type": "image/png",
+      "modified": false
+    },
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/assets/official/revo3_product.png",
+      "mode": "official external reference; file not copied",
+      "file": "assets/official/revo3_product.png",
+      "url": "https://www.brainco-hz.com/docs/revolimb-hand/images/revo3_rendering.png",
+      "page": "https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html",
+      "owner": "BrainCo",
+      "retrieved": "2026-09-22",
+      "sha256": "2825f580529b93d6dbc957c9bd4c00e126fc50d50db9d6fbf31e71bc46167a00",
+      "bytes": 148078,
+      "content_type": "image/png",
+      "modified": false
+    },
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/assets/official/sharpa_second_column_label.png",
+      "mode": "official external reference; file not copied",
+      "file": "assets/official/sharpa_second_column_label.png",
+      "url": "https://www.sharpa.com/cdn/shop/files/20260818-171150.png?v=1787044335&width=600",
+      "page": "https://www.sharpa.com/pages/wave",
+      "owner": "Sharpa",
+      "retrieved": "2026-09-22",
+      "sha256": "c1f00eb1a41253ecac59e99c8c77c91d08415fc56979ab4d961a6fb56084e33b",
+      "bytes": 13765,
+      "content_type": "image/png",
+      "modified": false
+    },
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/assets/official/sharpa_wave_product.jpg",
+      "mode": "official external reference; file not copied",
+      "file": "assets/official/sharpa_wave_product.jpg",
+      "url": "https://www.sharpa.com/cdn/shop/files/Codex_2026_8_17_17_57_19.jpg?v=1787034361&width=1200",
+      "page": "https://www.sharpa.com/pages/wave",
+      "owner": "Sharpa",
+      "retrieved": "2026-09-22",
+      "sha256": "4f5c154763d142a25e1af1c3ab213cb09a46d28fe82673418c530ef44a713460",
+      "bytes": 13896,
+      "content_type": "image/jpeg",
+      "modified": false
+    },
+    {
+      "source": "src/wuji-research/revo3-vs-sharpa/assets/official/sharpa_workspace_manual_p14.png",
+      "mode": "official external reference; file not copied",
+      "file": "assets/official/sharpa_workspace_manual_p14.png",
+      "source_url": "https://documentationpdf.sharpa.com/api/pdf/wave",
+      "documentation_entry": "https://www.sharpa.com/pages/documentation",
+      "owner": "Sharpa",
+      "retrieved": "2026-09-22",
+      "page": 14,
+      "page_count": 175,
+      "transformation": "Full original page rendered to PNG; no cropping or structural redrawing.",
+      "source_pdf_sha256": "1dbced1b59f3f1f5cfffac00b5ab6242bfaa113fcfe418fce470ef280fd58aa1",
+      "image_sha256": "3bbde55e71be2835cebb685fddab0fa4d5a47ee62a74a6f7b8db8ab627539e30",
+      "url": "https://documentationpdf.sharpa.com/api/pdf/wave",
+      "sha256": "3bbde55e71be2835cebb685fddab0fa4d5a47ee62a74a6f7b8db8ab627539e30",
+      "link_only": true
+    }
+  ],
+  "excluded": [
+    "official image files and manual page screenshots",
+    "raw CAD/URDF/mesh",
+    "teaching model bundles",
+    "SDK and source code",
+    "weights and datasets",
+    "environments and generation scripts",
+    "unreferenced media"
+  ]
+}

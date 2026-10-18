@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040">
+<style>text{font-family:"Noto Sans CJK SC",sans-serif}</style>
+<rect x="0" y="0" width="1600" height="1040" rx="0" fill="#eef3f7"/>
+<text x="44" y="60" font-size="34" fill="#183449" font-weight="700" text-anchor="start">控制与触觉：四条不同的接入路径</text>
+<text x="44" y="101" font-size="19" fill="#596f7f" font-weight="400" text-anchor="start">以已核对的公开接口为边界；未核实不代表硬件没有该能力。</text>
+<text x="64" y="156" font-size="22" fill="#596f7f" font-weight="700" text-anchor="start">产品</text>
+<text x="352" y="156" font-size="22" fill="#596f7f" font-weight="700" text-anchor="start">关节控制 / 力矩语义</text>
+<text x="780" y="156" font-size="22" fill="#596f7f" font-weight="700" text-anchor="start">触觉覆盖与数据</text>
+<text x="1220" y="156" font-size="22" fill="#596f7f" font-weight="700" text-anchor="start">对外频率</text>
+<rect x="44" y="181" width="1510" height="149" rx="14" fill="#ffffff"/>
+<rect x="44" y="181" width="9" height="149" rx="3" fill="#a75a0b"/>
+<text x="68" y="236" font-size="26" fill="#a75a0b" font-weight="700" text-anchor="start">Wuji Hand 2</text>
+<text x="68" y="272" font-size="20" fill="#596f7f" font-weight="400" text-anchor="start">2.2 Beta</text>
+<text x="352" y="239" font-size="22" fill="#183449" font-weight="700" text-anchor="start">MIT 前馈：A 电流</text>
+<text x="352" y="280" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">不可当作标定的外力矩</text>
+<text x="780" y="239" font-size="22" fill="#183449" font-weight="700" text-anchor="start">五指尖：176 点（示例）</text>
+<text x="780" y="280" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">逐点单位需按固件 metadata 读</text>
+<text x="1220" y="239" font-size="22" fill="#183449" font-weight="700" text-anchor="start">关节报文 1 kHz</text>
+<text x="1220" y="280" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">触觉示例 100 Hz</text>
+<rect x="44" y="347" width="1510" height="149" rx="14" fill="#ffffff"/>
+<rect x="44" y="347" width="9" height="149" rx="3" fill="#007c7a"/>
+<text x="68" y="402" font-size="26" fill="#007c7a" font-weight="700" text-anchor="start">Sharpa Wave</text>
+<text x="68" y="438" font-size="20" fill="#596f7f" font-weight="400" text-anchor="start">标准版</text>
+<text x="352" y="405" font-size="22" fill="#183449" font-weight="700" text-anchor="start">MIT 前馈：N·m</text>
+<text x="352" y="446" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">默认估算；部分根轴可测量</text>
+<text x="780" y="405" font-size="22" fill="#183449" font-weight="700" text-anchor="start">五指尖视触觉 + 根部力矩</text>
+<text x="780" y="446" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">不是 22 轴各有力矩传感器</text>
+<text x="1220" y="405" font-size="22" fill="#183449" font-weight="700" text-anchor="start">关节 500 Hz</text>
+<text x="1220" y="446" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">原始图像最高 180 Hz</text>
+<rect x="44" y="513" width="1510" height="149" rx="14" fill="#ffffff"/>
+<rect x="44" y="513" width="9" height="149" rx="3" fill="#7054b7"/>
+<text x="68" y="568" font-size="26" fill="#7054b7" font-weight="700" text-anchor="start">OmniHand</text>
+<text x="68" y="604" font-size="20" fill="#596f7f" font-weight="400" text-anchor="start">Ultra-M</text>
+<text x="352" y="571" font-size="22" fill="#183449" font-weight="700" text-anchor="start">公开 ROS 2：CSP / PP</text>
+<text x="352" y="612" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">通用 MIT / N·m 尚待确认</text>
+<text x="780" y="571" font-size="22" fill="#183449" font-weight="700" text-anchor="start">指尖 Xense + 掌面 300 点 3D</text>
+<text x="780" y="612" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">感知与运动的通路需分别核对</text>
+<text x="1220" y="571" font-size="22" fill="#183449" font-weight="700" text-anchor="start">型号专属保证值</text>
+<text x="1220" y="612" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">本次未核实</text>
+<rect x="44" y="679" width="1510" height="149" rx="14" fill="#ffffff"/>
+<rect x="44" y="679" width="9" height="149" rx="3" fill="#2167ae"/>
+<text x="68" y="734" font-size="26" fill="#2167ae" font-weight="700" text-anchor="start">Revo 3</text>
+<text x="68" y="770" font-size="20" fill="#596f7f" font-weight="400" text-anchor="start">U21 系列</text>
+<text x="352" y="737" font-size="22" fill="#183449" font-weight="700" text-anchor="start">MIT 前馈：mA 电流</text>
+<text x="352" y="778" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">SDK 无标定关节 N·m 模型</text>
+<text x="780" y="737" font-size="22" fill="#183449" font-weight="700" text-anchor="start">F / T / VT 配置分开比较</text>
+<text x="780" y="778" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">VT 的实际交付状态需确认</text>
+<text x="1220" y="737" font-size="22" fill="#183449" font-weight="700" text-anchor="start">通信标称 500 Hz</text>
+<text x="1220" y="778" font-size="18" fill="#596f7f" font-weight="400" text-anchor="start">各 SKU 触觉频率待核</text>
+<rect x="44" y="865" width="1510" height="116" rx="14" fill="#fff3e4"/>
+<text x="66" y="899" font-size="24" fill="#96520c" font-weight="700" text-anchor="start">电流 A/mA ≠ 关节力矩 N·m ≠ 指尖六维接触力/力矩。</text>
+<text x="66" y="934" font-size="20" fill="#596f7f" font-weight="400" text-anchor="start">1 kHz / 500 Hz 是对外接口口径，不是 PWM / FOC 内部频率，也不能直接按比例排名闭环带宽。</text>
+<text x="66" y="966" font-size="20" fill="#596f7f" font-weight="400" text-anchor="start">Ultra-M 的旧 PDF、当前官网与已审核 SDK 在通信描述上有差异，选型时必须锁定实际交付版本。</text>
+<text x="44" y="1019" font-size="14" fill="#596f7f" font-weight="400" text-anchor="start">来源：Wuji 控制指南/触觉示例；Wave 手册；AGILINK 固定提交 ROS 2 / 头文件；Revo Motor API。整理：2026-09-23</text>
+</svg>

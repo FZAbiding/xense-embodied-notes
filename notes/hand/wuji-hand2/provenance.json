@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-18T17:26:10.499793+08:00",
+  "source_date": "2026-09-21",
+  "source_workspace": "src/wuji-research/Wuji Hand 2 机械结构、驱动与产品竞争力调研",
+  "source_identity": "agent-assisted research; exact agent/model unknown",
+  "migration_scope": "completed reports, original analytical diagrams, compact comparison table and source records",
+  "verification_scope": "archive integrity and local links only; no new product/source/hardware validation",
+  "documents": [
+    {
+      "source": "src/wuji-research/Wuji Hand 2 机械结构、驱动与产品竞争力调研/Wuji Hand 2 机械结构、驱动与产品竞争力调研.md",
+      "source_sha256": "acfccd81fc61d9641f83ff8a3c0134beb5a94aeeaa10c87b09e5576d596c3cae",
+      "destination": "report.md",
+      "destination_sha256": "57a227101a72c5ab6ac985b51c5f9da0c2db055e152df71f94e5a1da73cf6f60",
+      "changes": [
+        "add historical snapshot boundary",
+        "rewrite portable source links",
+        "reference official media externally",
+        "adapt package sharing instructions",
+        "use Markdown hard-break escapes instead of trailing spaces"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "src/wuji-research/Wuji Hand 2 机械结构、驱动与产品竞争力调研/assets/wuji_cn111614202b_actuator_schematic.svg",
+      "source_sha256": "c335190c353dcb54bcab16bab8dfcc6a151f83010a47715ec70a21b145a03d77",
+      "destination": "assets/wuji_cn111614202b_actuator_schematic.svg",
+      "destination_sha256": "c335190c353dcb54bcab16bab8dfcc6a151f83010a47715ec70a21b145a03d77",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    },
+    {
+      "source": "src/wuji-research/Wuji Hand 2 机械结构、驱动与产品竞争力调研/assets/wuji_hand2_index_finger_layout.svg",
+      "source_sha256": "fa2ceb1b7a8d87c159b2de2a350798d2839f3eef381f27f78857c333ef03f63e",
+      "destination": "assets/wuji_hand2_index_finger_layout.svg",
+      "destination_sha256": "fa2ceb1b7a8d87c159b2de2a350798d2839f3eef381f27f78857c333ef03f63e",
+      "role": "原研究自绘的分析/教学图，非实物拆解或制造图，本轮未重新绘制"
+    }
+  ],
+  "source_materials": [],
+  "external_assets": [],
+  "excluded": [
+    "official image files and manual page screenshots",
+    "raw CAD/URDF/mesh",
+    "teaching model bundles",
+    "SDK and source code",
+    "weights and datasets",
+    "environments and generation scripts",
+    "unreferenced media"
+  ]
+}
