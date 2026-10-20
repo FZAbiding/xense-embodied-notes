@@ -1,0 +1,817 @@
+{
+  "schema_version": 1,
+  "source_workspace": "xense-genie_sim",
+  "source_commit": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+  "captured_at": "2026-10-19T22:28:21.129518+08:00",
+  "media_captured_at": "2026-10-19T22:31:56.845257+08:00",
+  "imported_at": "2026-10-19",
+  "source_research_period": "2026-10-12 至 2026-10-19；引擎文档的原研究日期未逐篇明确记载",
+  "verification_boundary": "继承原报告的仿真/计算/审阅口径；迁入仅核对文件、哈希、链接、收录与脱敏，不重新验证技术结论。",
+  "documents": [
+    {
+      "source": "wbc_demo/EXPERIMENT_RESULTS.md",
+      "source_sha256": "30728424b18efc6f627838fe85a6f445ff02f5c7a7857f0272489831c3083a88",
+      "destination": "topics/wbc/EXPERIMENT_RESULTS.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "ff756678038d1ab2461f8c02e82c4900940ac233c0f157f0f2ef86ddeb9f726d",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/LAB_USAGE.md",
+      "source_sha256": "b9208b65515c9213af7bc3dcfe0d078f5222e7e1489c88552664f899eaff3654",
+      "destination": "topics/wbc/LAB_USAGE.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "c44535f5fc1bc2d21dec1da7969bcb4dc4577c1e685b49e98ea53d7fc98ed88b",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/README.md",
+      "source_sha256": "e34a725c56c645ef0d51b3ac16dd4df604fe9f3588ca9cff11b12a038085f8e4",
+      "destination": "topics/wbc/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "f524f0fdd1747c76536540663e1b0cfaf6f54befd387e80f4edd1cb2fd1c0056",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将本机临时输出路径和系统固定安装路径改为原工程相对输出示例或文字描述。"
+    },
+    {
+      "source": "wbc_demo/REPRODUCTION_LOG.md",
+      "source_sha256": "cbeb87a81bc746f2d0bc46292109ba632fc93f6e560d8230087913a2484b3a53",
+      "destination": "topics/wbc/REPRODUCTION_LOG.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "a957f9cc34d0f913f26aa32aececd1b610cc6421c08c917a12a7b895940c3107",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/RESULTS.md",
+      "source_sha256": "4207dfd909d5381ca798c4596a6ca457c37e4562bdabd117945c0cc1ea1bc555",
+      "destination": "topics/wbc/RESULTS.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "fc301b9ada1541536b24b911d8d18eea9ea4cd13cdc2b5e785616c6c3313d9b7",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/WHOLE_BODY_IK_GUIDE_ZH.md",
+      "source_sha256": "9a535c76528759f3fe11bfeccd0fc5c97fc22105fc0ad034e833a9263fd73c45",
+      "destination": "topics/wbc/WHOLE_BODY_IK_GUIDE_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "693f63c181ea56b8019c4032747c7104dd037f802369220211e940944a608fe4",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/CODE_AUDIT_ZH.md",
+      "source_sha256": "8b426f0d865a0eaac40b77dd0979e1164de3b46eac723b85dd18c68c08ef4bda",
+      "destination": "topics/umi-replay/CODE_AUDIT_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "b90b008e0d72fa407b5ff4af4f01586baa29e05ce74e8f4d18074ecef099fc44",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/COORDINATES_ZH.md",
+      "source_sha256": "c0adc8408efc84e09d36d9a8b35f7d2bd4580df4f9f6cbdc85bd69a6af3aac85",
+      "destination": "topics/umi-replay/COORDINATES_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "e7dd1655cd7cfa7713b92d9c0a3a6d142f5dbef49bb7422f7eba801e04928ad0",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/GRIPPER_AND_WEB_FIX_ZH.md",
+      "source_sha256": "28ad8571307b4ecef0ff3b8703d1ace7c807944ebe08d9f7c9ebb8e72d522f54",
+      "destination": "topics/umi-replay/GRIPPER_AND_WEB_FIX_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "d67fff218cfcc4a490033e3b759088039b3a682c988d73be5b3cd6801edc4354",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/GRIPPER_EEF_CORRECTION_ZH.md",
+      "source_sha256": "480fc12c8fe3fe718b5e58597850ecaf8d8516476e12be925ad557ba2c5c677f",
+      "destination": "topics/umi-replay/GRIPPER_EEF_CORRECTION_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "26f881ffb73873ef2369f678bffd462858d9137b46f7f5f56c36456a8ce44a80",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/IK_LEARNING_GUIDE_ZH.md",
+      "source_sha256": "2066f5032e6f37d18cc52e905f870110f381c3c72be7a2770a8baddfc55356df",
+      "destination": "topics/umi-replay/IK_LEARNING_GUIDE_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "d81e82829c7b60ca34123bb7219f01c4a66817cbb240c002435ec1737c4a9fb3",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将原 Markdown 行尾双空格换行为显式 br，保持排版并消除 diff 空白提示。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/MULTIVIEW_RESULTS_ZH.md",
+      "source_sha256": "2ed350b776c52aca43f01d46fc7bbfc7e735651bad2652d2ad73511ba5688fa3",
+      "destination": "topics/umi-replay/MULTIVIEW_RESULTS_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "a2028277c02239837d63287860fc5740bdad05b9a6e6d9477de9fafddc77fab1",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/ONLINE_AB_RESULTS_ZH.md",
+      "source_sha256": "eb4923883abcf9b2b437167128156cf5d3d466746f2fa865dfec228772bb31b7",
+      "destination": "topics/umi-replay/ONLINE_AB_RESULTS_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "89810ea07cdd482e89622e04dfb2cd21fff7d742c725bb9dd7ef0ff1069d9ffe",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/ONLINE_IK_AND_VIEWS_ZH.md",
+      "source_sha256": "2a66539847fa773df4407c3d52ee7239e69480f41b2b2d6a25266bf6b45f58ae",
+      "destination": "topics/umi-replay/ONLINE_IK_AND_VIEWS_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "e7bf9b00f19a9821d4fed12e76498792f96237946ad76ba6346a939dca1cdfd1",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/PINOCCHIO_STUDY_ZH.md",
+      "source_sha256": "6f13a9cd2d1364059b28681a3f0b9bd0f1cc2bbe00f609bdd366aaf7ef147aa7",
+      "destination": "topics/umi-replay/PINOCCHIO_STUDY_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "b323d105de6f445ed4fa82f370b98203593f35bbc87609c0605a7ca7b9e31f89",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/PLAYBACK_ALIGNMENT_AND_WAIST_ZH.md",
+      "source_sha256": "7ae8832efa0e525b663f288f430fa307b84fa1b9d2dc56cbbaf36f4dba1cd1bf",
+      "destination": "topics/umi-replay/PLAYBACK_ALIGNMENT_AND_WAIST_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "d7dedc13f17aaaa2d4d8b7473fcbfa26ab3df1182a991f70be1c28852af6acb3",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将本机临时输出路径和系统固定安装路径改为原工程相对输出示例或文字描述。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/README.md",
+      "source_sha256": "683fff2f817078ed350774e23b21aa8e85bc31c44545dab7da2408c5cd83805c",
+      "destination": "topics/umi-replay/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "15dc23dd6512d17f8158ecab8dfed31ed57465aa7f24ea1bbb1dbf48ec7ddd50",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/REALTIME_REPLAY_ZH.md",
+      "source_sha256": "452a827c950bd5499fb0f3f8eb493e69f403a4272515936da364e4b66ca841b7",
+      "destination": "topics/umi-replay/REALTIME_REPLAY_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "29a198a76dff458b2444db681699d7803046df982f9d5afc0cd7e847ad837624",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/RESULTS_ZH.md",
+      "source_sha256": "8510a62c8e447806056b9ef6a610bdcce1c611fa7569ef512849d85d1c1f37e0",
+      "destination": "topics/umi-replay/RESULTS_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "3104cd3c1b67f5e81acb11af10dd2af182347532c93222287c716578951149db",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/UMI_REPLAY_GUIDE_ZH.md",
+      "source_sha256": "5efde716c2e3b1e078f17b4e0e524c57aab4ce1c7083815f00d3ccc888813660",
+      "destination": "topics/umi-replay/UMI_REPLAY_GUIDE_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "9586b64bcf7847cd66fd162fd51fda66063c3e9ef22b1a1dd5352fa33256dd7f",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/USER_FEEDBACK_REVIEW_ZH.md",
+      "source_sha256": "70849d0729dd503b197ac5b035a8f5bcfe10a3c1ba64b10d6d148df838761d1f",
+      "destination": "topics/umi-replay/USER_FEEDBACK_REVIEW_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "fcd8fe246035818434051b25da8ab7501ff78952e2cb38f741e50fbc36fa18ee",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/WBC_NEXT_STAGE_ZH.md",
+      "source_sha256": "7d26c48c822a6628b6fdc226d8696dbc0a0861d7880b4ca3dfcff3403c762d59",
+      "destination": "topics/umi-replay/WBC_NEXT_STAGE_ZH.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "24ec49aae5168ca9cb20c74178506ea2df58f85ec917cb4e84faa98921604f31",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/WORK_LOG.md",
+      "source_sha256": "adb5fde9d2a1e1664e1efc86da90116dfb6d6de479c33febb722bdbf489a7b92",
+      "destination": "topics/umi-replay/WORK_LOG.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "421bdd1b52ce8eaac67f82679a0a766f6f9c7478853ddc0b966a227e6b8b3eec",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000/README.md",
+      "source_sha256": "2a87e90a8615e21e14b6e4b530d5111daa89709906129f6cf6a9697ce8a2ef3e",
+      "destination": "assets/episode-000/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "78b24c4ca6b8e48de2f350543dd98ce20559b5922e43b61ec576b782166f14f2",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v2/README.md",
+      "source_sha256": "55e44d89247a4c49a8ee012f3772778f95e5a17c472eb104e842476c5dcafc33",
+      "destination": "assets/episode-000-v2/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "284e7874ace0ee6e3eb072fe7a22eab05f0454de959d4004dbb8a0e2e388abdd",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v3/README.md",
+      "source_sha256": "a8e5f6e36f4c330480b24edcd54435b32d20912001e5e24ffd2bca3c5e37fad5",
+      "destination": "assets/episode-000-v3/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "200d02d85f4bac96d04e42b9a86594d329aaa6751b3023b40c39adae4d57dcba",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v4/README.md",
+      "source_sha256": "3621d6d7d56af089ae589bd786eeec47330961c321792399a83f84551d8855b5",
+      "destination": "assets/episode-000-v4/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "523fe5c8ad1b2d74166d57a2ce90f477e4fe514ec0072235254141303c4f855e",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将原 HTML 自引用整理为当前 Markdown/精选媒体入口，明确未迁入完整验收包。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v5/README.md",
+      "source_sha256": "a5a353b2de75b83910c682ab9656104dd9e2a302f7e7b6cebad80f3bfa1e0555",
+      "destination": "assets/episode-000-v5/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "46ae5186a1db452b3ae69757a43b34cc00cd5607bf1855dd86e3d342eeb716af",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将原 HTML 自引用整理为当前 Markdown/精选媒体入口，明确未迁入完整验收包。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v6/README.md",
+      "source_sha256": "07a758a31ac5194267757be2a8e0cc615a26f5846bb9e503354575e3674791b4",
+      "destination": "assets/episode-000-v6/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "d4bca2beb378f0a64f200c47f5aa7e666d38489d2ccd2f8faaef4199ae8dd35b",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将原 HTML 自引用整理为当前 Markdown/精选媒体入口，明确未迁入完整验收包。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/ik-learning-v1/README.md",
+      "source_sha256": "cb7b4148923d570cabb0ff001ee921dc4e168b3259c4bdfdc2c8082a050647bc",
+      "destination": "assets/ik-learning-v1/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "451e0dfe0a1485d49d6a368e0e27ad3b74d470992f6159052c0bc265b15728ff",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将原 HTML 自引用整理为当前 Markdown/精选媒体入口，明确未迁入完整验收包。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/pinocchio-study-v1/README.md",
+      "source_sha256": "68ce5689b072e511ff94d27239ed3a8d636deae7b9b8da993d83969493a540f1",
+      "destination": "assets/pinocchio-study-v1/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "19b4896b537a5fa3c71eda9a8f5b53dc085272be43d4026f4058ebb0308420bd",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将原 HTML 自引用整理为当前 Markdown/精选媒体入口，明确未迁入完整验收包。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/online-ab-pilot-v1/README.md",
+      "source_sha256": "5aa2ca6d6968b9ea94fd0f58af7f3610b7534e0de4d9173cdb8c55138f084077",
+      "destination": "assets/online-ab-pilot-v1/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "335bed97c0f3f5e05199f9381070dd9b47d2ead72c90713808282c75fec4e136",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将原 HTML 自引用整理为当前 Markdown/精选媒体入口，明确未迁入完整验收包。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/online-ab-v1/README.md",
+      "source_sha256": "7e83b3051b2983be74122f0d8613c88b155002942d86ab628939f0df2e9d0541",
+      "destination": "assets/online-ab-v1/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "7968b658f68be04b7d8c21f650a0ad92a5723029b4edfb70d5958d3af252e610",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。 将原 HTML 自引用整理为当前 Markdown/精选媒体入口，明确未迁入完整验收包。"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/playback-waist-v1/README.md",
+      "source_sha256": "0996db5efe412cfefb6b313327d68e0a65a9919369dfa0531fce7bf87f35ab37",
+      "destination": "assets/playback-waist-v1/README.md",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "438e81db91a72190f9255b68be04188c4340d6fd0ff87c3f2dbef6f1fde4d4e9",
+      "modification": "保留历史技术结论与失败/撤回记录；增加快照及工作区提示，重定向链接，省略账号及私人远端操作；媒体说明标明本次实际保留清单。"
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/asset_consumption.md",
+      "source_sha256": "250c55b6e66005e920e4b03380edac74cf6fee84057382f81a4bdecbe860bbbe",
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "matches_head": true,
+      "destination": "topics/engine-review.md",
+      "destination_sha256": "a3bb9e92a8cbd2a3793b52478b986c7dff84f65908d7ffba54b8aa952a340feb",
+      "modification": "摘编为中文学习复盘；不迁入实现代码、命令清单、工程资产；标明设计与验收结果、文档层次差异及未知研究日期。"
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/engines.md",
+      "source_sha256": "2b3db4d6d6949856a6f07f84f0f67b391083602dc4dfc8834423b59c84d543a2",
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "matches_head": true,
+      "destination": "topics/engine-review.md",
+      "destination_sha256": "a3bb9e92a8cbd2a3793b52478b986c7dff84f65908d7ffba54b8aa952a340feb",
+      "modification": "摘编为中文学习复盘；不迁入实现代码、命令清单、工程资产；标明设计与验收结果、文档层次差异及未知研究日期。"
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/newton_quirks.md",
+      "source_sha256": "670cab9649ea397eec15f5d9f7cd09080dad14e8660ce77a70e2f6fe9790fd3f",
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "matches_head": true,
+      "destination": "topics/engine-review.md",
+      "destination_sha256": "a3bb9e92a8cbd2a3793b52478b986c7dff84f65908d7ffba54b8aa952a340feb",
+      "modification": "摘编为中文学习复盘；不迁入实现代码、命令清单、工程资产；标明设计与验收结果、文档层次差异及未知研究日期。"
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/ovrtx_sync.md",
+      "source_sha256": "71eb7cb39c25ced295bc028163a48fb3e5e9f4f65da0382173b8afb6069e9886",
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "matches_head": true,
+      "destination": "topics/engine-review.md",
+      "destination_sha256": "a3bb9e92a8cbd2a3793b52478b986c7dff84f65908d7ffba54b8aa952a340feb",
+      "modification": "摘编为中文学习复盘；不迁入实现代码、命令清单、工程资产；标明设计与验收结果、文档层次差异及未知研究日期。"
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/param_injection_eval.md",
+      "source_sha256": "47541de37eebebe6cf0f1f6b9e16a38d0dc42aa77301e12024ed7bf4febfbc36",
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "matches_head": true,
+      "destination": "topics/engine-review.md",
+      "destination_sha256": "a3bb9e92a8cbd2a3793b52478b986c7dff84f65908d7ffba54b8aa952a340feb",
+      "modification": "摘编为中文学习复盘；不迁入实现代码、命令清单、工程资产；标明设计与验收结果、文档层次差异及未知研究日期。"
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/perf.md",
+      "source_sha256": "46b64e3236828524d72abe9ea7ba38f52ff335c7a165a6eec954dbb08429ead1",
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "matches_head": true,
+      "destination": "topics/engine-review.md",
+      "destination_sha256": "a3bb9e92a8cbd2a3793b52478b986c7dff84f65908d7ffba54b8aa952a340feb",
+      "modification": "摘编为中文学习复盘；不迁入实现代码、命令清单、工程资产；标明设计与验收结果、文档层次差异及未知研究日期。"
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/pipeline.md",
+      "source_sha256": "42efc8aab9de878b7ccc82b8f7b3557e02576511dcd3c0b9409446f9e2686701",
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "matches_head": true,
+      "destination": "topics/engine-review.md",
+      "destination_sha256": "a3bb9e92a8cbd2a3793b52478b986c7dff84f65908d7ffba54b8aa952a340feb",
+      "modification": "摘编为中文学习复盘；不迁入实现代码、命令清单、工程资产；标明设计与验收结果、文档层次差异及未知研究日期。"
+    }
+  ],
+  "assets": [
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000/source-storyboard.png",
+      "source_sha256": "27b5fbfa6210f5594e30b2ac35c8697c009993cf92db06181854cc42afc7ca52",
+      "destination": "assets/episode-000/source-storyboard.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "27b5fbfa6210f5594e30b2ac35c8697c009993cf92db06181854cc42afc7ca52",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v2/robot-preview.gif",
+      "source_sha256": "27fe84f0c9f57fbd2f890ea60966c25e7d18a76d38029faab3fdf047fb1fed89",
+      "destination": "assets/episode-000-v2/robot-preview.gif",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "27fe84f0c9f57fbd2f890ea60966c25e7d18a76d38029faab3fdf047fb1fed89",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "模型/渲染衍生许可未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际仿真录像抽帧；动图为 8 倍速概览降采样，非控制速度",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v2/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v2/robot-storyboard.png",
+      "source_sha256": "9e7d830e25755fff909a090f78268f24ba1760a9b706b84639bae8a21b0d7083",
+      "destination": "assets/episode-000-v2/robot-storyboard.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "9e7d830e25755fff909a090f78268f24ba1760a9b706b84639bae8a21b0d7083",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "模型/渲染衍生许可未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际仿真录像抽帧；动图为 8 倍速概览降采样，非控制速度",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v2/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v2/camera-axis-before-after.png",
+      "source_sha256": "482f82b24af4ad344b6c7176e1bd24bf6e280df16b9e9e26602b871c4c8ce6a8",
+      "destination": "assets/episode-000-v2/camera-axis-before-after.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "482f82b24af4ad344b6c7176e1bd24bf6e280df16b9e9e26602b871c4c8ce6a8",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "模型衍生许可未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际 URDF/STL 的旧新 EEF 投影；非实机标定",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v2/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v2/waist-roll-before-after.png",
+      "source_sha256": "6cd82b1ef5cc2f925ccd69be23b6c3bc5a51ee80cdd5c316667ef2eda6c38c52",
+      "destination": "assets/episode-000-v2/waist-roll-before-after.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "6cd82b1ef5cc2f925ccd69be23b6c3bc5a51ee80cdd5c316667ef2eda6c38c52",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际执行/反馈数据重算的误差、开度或腰部曲线",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v2/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v2/head-left-frame.png",
+      "source_sha256": "82efcca6c3e7748eb5f83ba2141b84f9e246e82c9d3d638d1ff1559072a32b9e",
+      "destination": "assets/episode-000-v2/head-left-frame.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "82efcca6c3e7748eb5f83ba2141b84f9e246e82c9d3d638d1ff1559072a32b9e",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v2/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v2/tracking-summary.png",
+      "source_sha256": "5f20e12be053fc75210e2909cd641f03ea7b9ee727604c1f57b9ad2f64313c2e",
+      "destination": "assets/episode-000-v2/tracking-summary.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "5f20e12be053fc75210e2909cd641f03ea7b9ee727604c1f57b9ad2f64313c2e",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际执行/反馈数据重算的误差、开度或腰部曲线",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v2/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v3/quad-middle.png",
+      "source_sha256": "e7218e08743304e1bd731a4773522a7c4a6efa47a4595812a846a0412031c12d",
+      "destination": "assets/episode-000-v3/quad-middle.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "e7218e08743304e1bd731a4773522a7c4a6efa47a4595812a846a0412031c12d",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v3/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v3/web-live-ui.png",
+      "source_sha256": "3c13da234a4e44354ca40aebcbde984be0ea455320c5713b7c33b46e59c11ac3",
+      "destination": "assets/episode-000-v3/web-live-ui.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "3c13da234a4e44354ca40aebcbde984be0ea455320c5713b7c33b46e59c11ac3",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v3/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v3/tracking-summary.png",
+      "source_sha256": "ae74dc23539b21da7cc8107dd65670c7c334d11e6e5086e9fef719488accd0ff",
+      "destination": "assets/episode-000-v3/tracking-summary.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "ae74dc23539b21da7cc8107dd65670c7c334d11e6e5086e9fef719488accd0ff",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际执行/反馈数据重算的误差、开度或腰部曲线",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v3/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v4/quad-middle.png",
+      "source_sha256": "a87b72549e62c75325c6ebc43d279ff376292c983bbc5cba98b5073125d6e233",
+      "destination": "assets/episode-000-v4/quad-middle.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "a87b72549e62c75325c6ebc43d279ff376292c983bbc5cba98b5073125d6e233",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v4/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v4/gripper-summary.png",
+      "source_sha256": "f56a83d70838851747c745c6cee5dc3d1bbe3f279c871bbe3792dc7af87a3f6a",
+      "destination": "assets/episode-000-v4/gripper-summary.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "f56a83d70838851747c745c6cee5dc3d1bbe3f279c871bbe3792dc7af87a3f6a",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际执行/反馈数据重算的误差、开度或腰部曲线",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v4/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v4/gripper-endpoints.png",
+      "source_sha256": "b7094410115682eddffcded5e7307758a5eaa7dffa834b74da65da4adc8b0f22",
+      "destination": "assets/episode-000-v4/gripper-endpoints.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "b7094410115682eddffcded5e7307758a5eaa7dffa834b74da65da4adc8b0f22",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "模型/渲染衍生许可未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际仿真录像抽帧；动图为 8 倍速概览降采样，非控制速度",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v4/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v4/web-before-drag.png",
+      "source_sha256": "ffa2560d70f2413d7d25f397ea3f8aea1aff127b088c77c5d096ac60638f71ff",
+      "destination": "assets/episode-000-v4/web-before-drag.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "ffa2560d70f2413d7d25f397ea3f8aea1aff127b088c77c5d096ac60638f71ff",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v4/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v4/web-after-drag.png",
+      "source_sha256": "503208cfcd84cf9ea0de9139349a9e9708515296f0919575ff331033561c4c0d",
+      "destination": "assets/episode-000-v4/web-after-drag.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "503208cfcd84cf9ea0de9139349a9e9708515296f0919575ff331033561c4c0d",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v4/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v5/quad-middle.png",
+      "source_sha256": "96564c82326775511bf93bc0e54554fd0645c43b5609a581fc9d09249ea9c291",
+      "destination": "assets/episode-000-v5/quad-middle.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "96564c82326775511bf93bc0e54554fd0645c43b5609a581fc9d09249ea9c291",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v5/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v5/realtime-summary.png",
+      "source_sha256": "4d156d640deec9634ea006a4b38934e452cf5b5bf1bfe41cfbfc7fc45c74ad73",
+      "destination": "assets/episode-000-v5/realtime-summary.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "4d156d640deec9634ea006a4b38934e452cf5b5bf1bfe41cfbfc7fc45c74ad73",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际执行/反馈数据重算的误差、开度或腰部曲线",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v5/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v6/head_left.mp4",
+      "source_sha256": "b133757c9916e836af162a06c73b2243eef1311a34a2fbc8526d95ed861f36d8",
+      "destination": "assets/episode-000-v6/head_left.mp4",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "b133757c9916e836af162a06c73b2243eef1311a34a2fbc8526d95ed861f36d8",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v6/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v6/quad-middle.png",
+      "source_sha256": "77599e3b773f50ab76140ae86dd096aef5d015195c86e2fc255d2505d5f94fe5",
+      "destination": "assets/episode-000-v6/quad-middle.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "77599e3b773f50ab76140ae86dd096aef5d015195c86e2fc255d2505d5f94fe5",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "源画面及其衍生部分 CC-BY-SA-4.0（继承原说明）；其余模型/渲染部分许可未单独明确",
+      "generation_or_derivation": "TacVerse 源采集画面与原工作区仿真画面抽帧/拼接/标注；作者身份未知",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v6/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/episode-000-v6/error-decomposition.png",
+      "source_sha256": "facf74fe2e52509387778f9bdc2a0641d5d51666e48e4c0652d255af55f4a9db",
+      "destination": "assets/episode-000-v6/error-decomposition.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "facf74fe2e52509387778f9bdc2a0641d5d51666e48e4c0652d255af55f4a9db",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际同步日志重算的诊断图，保留失败与不完整验收边界",
+      "license_evidence": "wbc_demo/umi_replay/media/episode-000-v6/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/ik-learning-v1/01-fk-ik-jacobian.png",
+      "source_sha256": "9157e14142348928840b499675165d0b9c1c23df8fcd4efcdbfdc5255ebf0352",
+      "destination": "assets/ik-learning-v1/01-fk-ik-jacobian.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "9157e14142348928840b499675165d0b9c1c23df8fcd4efcdbfdc5255ebf0352",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区 learning_materials 生成；教学计算/示意，非新运动实验",
+      "license_evidence": "wbc_demo/umi_replay/media/ik-learning-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/ik-learning-v1/02-numerical-iteration.png",
+      "source_sha256": "f827aad8d842bae3785dc7c96fbfed6bc861891d7d2bae90012b9067dba49cf0",
+      "destination": "assets/ik-learning-v1/02-numerical-iteration.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "f827aad8d842bae3785dc7c96fbfed6bc861891d7d2bae90012b9067dba49cf0",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区 learning_materials 生成；教学计算/示意，非新运动实验",
+      "license_evidence": "wbc_demo/umi_replay/media/ik-learning-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/ik-learning-v1/03-v5-control-stack.png",
+      "source_sha256": "e949e09bca36e464e545aeb916b303416c0a5c0474d369220ebc885ebaf7fd5c",
+      "destination": "assets/ik-learning-v1/03-v5-control-stack.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "e949e09bca36e464e545aeb916b303416c0a5c0474d369220ebc885ebaf7fd5c",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区 learning_materials 生成；教学计算/示意，非新运动实验",
+      "license_evidence": "wbc_demo/umi_replay/media/ik-learning-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/ik-learning-v1/04-v5-tracking-diagnostics.png",
+      "source_sha256": "e99b07da53a0eaa6abdcca49908f3c51c430e1cf46de4f9c4aa6ebf9931e88a8",
+      "destination": "assets/ik-learning-v1/04-v5-tracking-diagnostics.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "e99b07da53a0eaa6abdcca49908f3c51c430e1cf46de4f9c4aa6ebf9931e88a8",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区 learning_materials 生成；旧 v5 日志诊断，非新运动实验",
+      "license_evidence": "wbc_demo/umi_replay/media/ik-learning-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/ik-learning-v1/05-error-decomposition.png",
+      "source_sha256": "f4dd6530f649d37d4120b7a76d510199e2ec434bedf927f3ef825ce8aa143f5d",
+      "destination": "assets/ik-learning-v1/05-error-decomposition.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "f4dd6530f649d37d4120b7a76d510199e2ec434bedf927f3ef825ce8aa143f5d",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区 learning_materials 生成；教学计算/示意，非新运动实验",
+      "license_evidence": "wbc_demo/umi_replay/media/ik-learning-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/pinocchio-study-v1/kinematics-comparison.png",
+      "source_sha256": "7d90d3012ea658d5d99f2cbbf5412ef5e0c25f9cc815fbef4f06c99056b4c34f",
+      "destination": "assets/pinocchio-study-v1/kinematics-comparison.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "7d90d3012ea658d5d99f2cbbf5412ef5e0c25f9cc815fbef4f06c99056b4c34f",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "旧回放状态的离线 FK/Jacobian 兼容性及耗时计算，非整链路基准",
+      "license_evidence": "wbc_demo/umi_replay/media/pinocchio-study-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/online-ab-pilot-v1/online-comparison.png",
+      "source_sha256": "0dabb5f1e69413d6fdb9494a26dc6089f7d122444bd4d977914808dbd3cf62dc",
+      "destination": "assets/online-ab-pilot-v1/online-comparison.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "0dabb5f1e69413d6fdb9494a26dc6089f7d122444bd4d977914808dbd3cf62dc",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际同步日志重算的诊断图，保留失败与不完整验收边界",
+      "license_evidence": "wbc_demo/umi_replay/media/online-ab-pilot-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/online-ab-pilot-v1/episode-001-urdf-r02.png",
+      "source_sha256": "464304ebdf2db2fd7843a66e3be0e95f92debd17b62edd7d24f1c42e6e0f78c9",
+      "destination": "assets/online-ab-pilot-v1/episode-001-urdf-r02.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "464304ebdf2db2fd7843a66e3be0e95f92debd17b62edd7d24f1c42e6e0f78c9",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际同步日志重算的诊断图，保留失败与不完整验收边界",
+      "license_evidence": "wbc_demo/umi_replay/media/online-ab-pilot-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/online-ab-v1/online-comparison.png",
+      "source_sha256": "9fdcdcdf299428c9a49dcdd4f3bbe39154b280d9bdf58ac573b0072eb49fb8fa",
+      "destination": "assets/online-ab-v1/online-comparison.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "9fdcdcdf299428c9a49dcdd4f3bbe39154b280d9bdf58ac573b0072eb49fb8fa",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区实际同步日志重算的诊断图，保留失败与不完整验收边界",
+      "license_evidence": "wbc_demo/umi_replay/media/online-ab-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/playback-waist-v1/alignment.svg",
+      "source_sha256": "912699a99df4e21b9597b2f6558acc94708f0d3f43e16b36405c48831c9c5a93",
+      "destination": "assets/playback-waist-v1/alignment.svg",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "912699a99df4e21b9597b2f6558acc94708f0d3f43e16b36405c48831c9c5a93",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区生成的共同世界变换教学示意，非硬件标定",
+      "license_evidence": "wbc_demo/umi_replay/media/playback-waist-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/playback-waist-v1/delivery.png",
+      "source_sha256": "3cc4248642ff73a6ac88a322294d8ff09f5968af3113bbf813113927d1426e70",
+      "destination": "assets/playback-waist-v1/delivery.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "3cc4248642ff73a6ac88a322294d8ff09f5968af3113bbf813113927d1426e70",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确，不代为授权",
+      "generation_or_derivation": "原工作区修复前后各 15 s 静止探针统计，非全程运动验收",
+      "license_evidence": "wbc_demo/umi_replay/media/playback-waist-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    },
+    {
+      "source": "wbc_demo/umi_replay/media/playback-waist-v1/waist-initial.png",
+      "source_sha256": "163c631a6a35b0a530d4e0a8fafbcd295e21e6fa1f0745b0acf28c056711d8d6",
+      "destination": "assets/playback-waist-v1/waist-initial.png",
+      "matches_head": true,
+      "source_version": "5015ce3d4acc61258a0184b1a008a003f67d8a22",
+      "destination_sha256": "163c631a6a35b0a530d4e0a8fafbcd295e21e6fa1f0745b0acf28c056711d8d6",
+      "modification": "逐文件按迁入清单复制；字节未改动。",
+      "source_license": "未单独明确；含模型衍生内容，不代为授权",
+      "generation_or_derivation": "URDF FK 骨架与旧运行日志；固定腰新候选未实际执行",
+      "license_evidence": "wbc_demo/umi_replay/media/playback-waist-v1/README.md；源采集声明同时参考 episode-000 与 episode-000-v5 的说明"
+    }
+  ],
+  "derived_inputs": [
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/asset_consumption.md",
+      "source_sha256": "250c55b6e66005e920e4b03380edac74cf6fee84057382f81a4bdecbe860bbbe",
+      "bytes": 10276,
+      "matches_head": true
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/engines.md",
+      "source_sha256": "2b3db4d6d6949856a6f07f84f0f67b391083602dc4dfc8834423b59c84d543a2",
+      "bytes": 8125,
+      "matches_head": true
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/newton_quirks.md",
+      "source_sha256": "670cab9649ea397eec15f5d9f7cd09080dad14e8660ce77a70e2f6fe9790fd3f",
+      "bytes": 18638,
+      "matches_head": true
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/ovrtx_sync.md",
+      "source_sha256": "71eb7cb39c25ced295bc028163a48fb3e5e9f4f65da0382173b8afb6069e9886",
+      "bytes": 52321,
+      "matches_head": true
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/param_injection_eval.md",
+      "source_sha256": "47541de37eebebe6cf0f1f6b9e16a38d0dc42aa77301e12024ed7bf4febfbc36",
+      "bytes": 11579,
+      "matches_head": true
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/perf.md",
+      "source_sha256": "46b64e3236828524d72abe9ea7ba38f52ff335c7a165a6eec954dbb08429ead1",
+      "bytes": 10555,
+      "matches_head": true
+    },
+    {
+      "source": "source/geniesim_ros/src/ros_ws/src/genie_sim_engine/docs/pipeline.md",
+      "source_sha256": "42efc8aab9de878b7ccc82b8f7b3557e02576511dcd3c0b9409446f9e2686701",
+      "bytes": 12104,
+      "matches_head": true
+    }
+  ],
+  "excluded_documents": [
+    {
+      "source": "wbc_demo/MIGRATION.md",
+      "reason": "本机备份、worktree 与远端同步操作，不属于本轮学习正文；技术版本由来源页记录。"
+    }
+  ]
+}

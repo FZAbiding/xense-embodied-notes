@@ -6,4 +6,4 @@
 
 对象示例：MuJoCo、Isaac、Genesis、URDF/MJCF/USD。示例名称不代表已有笔记。
 
-尚无迁入笔记。新增内容请先阅读 [Agent规范](../../AGENTS.md) 和 [贡献流程](../../CONTRIBUTING.md)。
+- [Genie Sim：全身 IK、UMI 回放与仿真工程复盘](genie-sim/README.md)：整理固定底盘 G2 的 IK 学习、UMI 回放、在线 A/B 与引擎复盘，保留 EEF 撤回、控制长尾及约束失败。
