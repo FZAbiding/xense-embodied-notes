@@ -6,4 +6,4 @@
 
 对象示例：MANUS、主从映射、手部重定向。示例名称不代表已有笔记。
 
-尚无迁入笔记。新增内容请先阅读 [Agent规范](../../AGENTS.md) 和 [贡献流程](../../CONTRIBUTING.md)。
+- [MANUS Metagloves Pro Haptic：跟踪、触觉反馈与遥操作调研](manus-metagloves-pro-haptic/README.md)：整理EMF跟踪、手套结构、反馈、数据链路和竞品证据，区分历史型号、软件许可与实物验收。

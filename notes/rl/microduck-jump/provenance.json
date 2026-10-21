@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-10-11",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "src/microduck_rl/docs/microduck_jump_v1_v8_report.md",
+      "source_date": "2026-09-14",
+      "source_sha256": "a737e5b92258507f9fb589f7606ae4ec21a3856152b4d96b738972df16d37044",
+      "destination": "topics/v1-v8.md",
+      "destination_sha256": "f06e02bc6834ea783ff855fef22a2519037e8afa9b8c14fb5e8c0c283e9ee528",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    },
+    {
+      "source": "src/microduck_rl/docs/microduck_jump_v9_report.md",
+      "source_date": "2026-10-11",
+      "source_sha256": "c55a863f955c57a393d9b64c57487e7c4473e4d3e6301a300d2774c58f9d03ec",
+      "destination": "report.md",
+      "destination_sha256": "373530baf87d853b7d4c0ef95af8a7eba73032c6fc59a9d62632d67889429086",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation",
+        "replace machine-specific temporary output or upstream workstation paths with portable notation"
+      ]
+    },
+    {
+      "source": "src/microduck_rl/docs/microduck_jump_v9_landing_recovery.md",
+      "source_date": "2026-10-11",
+      "source_sha256": "18918adc8e0f748aeeba7e9c38ac7ad04a932a707c3e480e5abec713f9f8e8c3",
+      "destination": "topics/v9-landing-recovery.md",
+      "destination_sha256": "3c69c02e06c5040a4b282a2da71cc08c3a7085c26dc6af7f8a5048ff5e476918",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation",
+        "replace machine-specific temporary output or upstream workstation paths with portable notation"
+      ]
+    },
+    {
+      "source": "src/microduck_rl/docs/microduck_mamba_setup_report.md",
+      "source_date": "2026-09-05",
+      "source_sha256": "109baeae52a4736a5db66d281e4f7e07c7e121a4d0ff20e0182a645139afcbd6",
+      "destination": "topics/environment-smoke.md",
+      "destination_sha256": "df09af902c2178dc4053e77232464c8a2953a1cb3ee109e024f01d000e35e21a",
+      "changes": [
+        "curated learning summary from selected source material",
+        "omit internal implementation, local deployment details and unrelated claims",
+        "retain failures, historical protocol differences and unverified scope"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

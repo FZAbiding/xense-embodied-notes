@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-09-19",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "codex-agent-QA/千觉机器人_XTac_UMI_G1_调研报告_2026-09-19.md",
+      "source_date": "2026-09-19",
+      "source_sha256": "f0e7176cf8ddfef872284ef0f1d6c5ec91df6fcac29a6332429fdfa5542361de",
+      "destination": "report.md",
+      "destination_sha256": "b9b04fc2d81104d83c8aeb1a6c884ec3e06717430c19c300b7b09e73edf576d9",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation",
+        "normalize Markdown hard breaks and final newline without changing technical text"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

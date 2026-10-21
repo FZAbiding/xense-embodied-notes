@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-07-03",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "src/vla-jepa/training_records/2026-06-16_finetune_recipe_correction.md",
+      "source_date": "2026-06-16",
+      "source_sha256": "9a43114ff451aab6fc69888dc6041d25eda5056ea666aca13b169a20bb0eed06",
+      "destination": "report.md",
+      "destination_sha256": "3dfb8e3b714a8f47f1ed0474ccecef45ca8bdb7f152c2c8f33c5c99767d3bf90",
+      "changes": [
+        "curated learning summary from selected source material",
+        "omit internal implementation, local deployment details and unrelated claims",
+        "retain failures, historical protocol differences and unverified scope"
+      ]
+    },
+    {
+      "source": "src/vla-jepa/training_records/2026-07-03_delta_tcp_action_transform.md",
+      "source_date": "2026-07-03",
+      "source_sha256": "624585bcc787b052292d678842d20849ec0f7e200de73ff7fc86b1f678d0ea08",
+      "destination": "report.md",
+      "destination_sha256": "3dfb8e3b714a8f47f1ed0474ccecef45ca8bdb7f152c2c8f33c5c99767d3bf90",
+      "changes": [
+        "additional source used for the same curated summary",
+        "retain source-specific original date and hash"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-10-16",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "Downloads/触觉数采手套 + Ego 头环：技术路线与竞品分析.html",
+      "source_date": "2026-10-16",
+      "source_sha256": "57b6b7c62fa2c0e039eadbd5e1e529671e80ff1765e93c372ee1c8489c40139a",
+      "destination": "report.md",
+      "destination_sha256": "9c3261dad9a97d0e23f82d489fb27023830f687c3789acbbeaee34fbe06dee15",
+      "changes": [
+        "curated learning summary from selected source material",
+        "omit internal implementation, local deployment details and unrelated claims",
+        "retain failures, historical protocol differences and unverified scope"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

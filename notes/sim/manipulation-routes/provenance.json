@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-10-12",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "Desktop/具身操作仿真技术路线调研_银河通用_Sudo_Genesis_2026-10-12.md",
+      "source_date": "2026-10-12",
+      "source_sha256": "dddabe1cd1e62697b3911b9a9dc11ff703538a4baedf9cf40621d6722cc9f2f4",
+      "destination": "report.md",
+      "destination_sha256": "a24e9c8533b59988c6ace5882f86d7d3490557f7ac0ff1c9eb5b7393f54294fb",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation",
+        "normalize Markdown hard breaks and final newline without changing technical text",
+        "replace machine-specific temporary output or upstream workstation paths with portable notation"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

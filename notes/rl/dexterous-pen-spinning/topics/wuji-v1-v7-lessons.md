@@ -1,0 +1,32 @@
+> 历史文档快照：原记录日期 2026-10-17，于 2026-10-22 复制整理。文中“本次”“本仓库”和测试结果均指原研究工作区及当时范围；本轮只做归档、路径适配和知识库检查，未重新验证技术结论。来源见 [sources.md](../sources.md)。
+
+# Wuji palm-up pen spinning: v1–v7 results and lessons
+
+Status: 2026-10-17. This is the historical handoff for future agents. The general procedure is in [the training SOP（工作区资料，未随文保存）](../sources.md#workspace-be27b28ff1b2), and the proposed next durations are in [the long-horizon roadmap（工作区资料，未随文保存）](../sources.md#workspace-1bb49594a2ff). **v7 is a useful short-turn candidate, with contact-location and human-motion acceptance still open.**
+
+| Version | What changed and what the evidence shows | Lesson |
+| --- | --- | --- |
+| Legacy / v1 palm-up | The legacy palm-down comparison used the wrong palm normal and its cross-hand Wuji score was withdrawn ([legacy report](wuji-withdrawn-comparison.md)). Palm-up v1 rebuilt the +Z scene and certified a 60-second grasp bank. Of eight 12-second candidates, only one passed unperturbed plus four disturbed 60-second checks ([scene and grasp provenance（工作区资料，未随文保存）](../sources.md#workspace-e9e17b607077)). | Verify coordinates and long-hold initial states before training. Old-orientation weights are incompatible with the corrected task. |
+| v2 | An independent opposing-pinch task inherited v1. At 600 updates, 24/24 survived the 60-second hold but **0/24 passed strict quality**: mean angle error 7.924°, minimum amplitude ratio 0.507, clipping 10.78% ([report（工作区资料，未随文保存）](../sources.md#workspace-7ebd70b0b505)). | Survival and a plausible pinch do not establish controlled pen motion. |
+| v3 | A 12-action tripod policy attempted to park ring/pinky. At 600 updates, 24/24 survived, **0/24 strict**; idle fingers still touched 9.69% of frames, non-tip force was 29.61%, mean angle error 4.79° ([report（工作区资料，未随文保存）](../sources.md#workspace-adb1a6b148ba)). | A parked command does not remove physical contact; inspect the actual collision and force record. |
+| v4 | The human Triangle Pass became the target. A stable 60-second hold did not yield a handover (0/24); an approximately 58° open-loop motion crossed index/middle and the user rejected it ([report（工作区资料，未随文保存）](../sources.md#workspace-96ecc088c4f9)). | User-rejected geometry stays failed; do not use its attractive angle as an imitation target. |
+| v5 preflight | The new posture guard caught crossing in 280/280 frames of the v4 example. Of 160 initial candidates, 66 passed 2 seconds and only 3/8 checked candidates passed 8 seconds. The nominal 15° open-loop motion had 0/24 handovers ([preflight report（工作区资料，未随文保存）](../sources.md#workspace-5df02907af81)). | Test motion feasibility and contact location before committing to long PPO. |
+| v5 long training | A separate 24-hour run reached about 64,902 updates and 2.127 billion steps for a 360°/10-second target. Final 24/24 completed 12 seconds, mean actual turn 360.53°, mean error 1.13°, but **0/24 strict** because drift, self-depth, and middle-PIP gates failed ([v6 inheritance plan（工作区资料，未随文保存）](../sources.md#workspace-a403c6dbd5c0)). | A full turn and many environment steps do not replace the complete posture/contact gate. Distinguish the preflight from the later long run. |
+| v6a / v6b | v6a stopped after 182 updates because the evaluator misread the new stage as an old 60-second hold; its 0/24 result is invalid ([v6b plan（工作区资料，未随文保存）](../sources.md#workspace-886692d69f65)). v6b snapshots passed fixed validation at 10 seconds and 6 seconds (24/24 each), but the final 3-second-turn holdout was **0/24**, with 22/24 early endings and failed opposing contact/handover ([report（工作区资料，未随文保存）](../sources.md#workspace-e751d7439476)). | Version the evaluator with the task. Faster rotation can regress sharply; near-360° angle may include free-spinning after grip loss. Keep checkpoint/seed identity exact. |
+| v7 | Three short pilots showed course-only better than a combined reward/course change at 4.5 seconds ([pilots（工作区资料，未随文保存）](../sources.md#workspace-05b80382066b)). After about 24 effective training hours, fixed-validation-selected iteration 9000 achieved **24/24 under the original v7 gate** on a fresh 5.5-second, 3-second-turn holdout, mean angle error 0.60°. The later final iteration 51074 was 23/24 ([stage A review and video（工作区资料，未随文保存）](../sources.md#workspace-0f2dcb7987a4)). | Controlled ablations and best-checkpoint selection mattered. Longer training did not monotonically improve the policy. |
+
+## The important v7 qualification
+
+The original v7 tip channel combines `*_distal` body and `*_tip_sensor_frame`. An independent replay of all 24 holdout episodes found sensor-only dual contact in only **75.0%–78.2%** of frames per episode; the original >95% rule would therefore yield **0/24** if applied to that narrower sensor region. Distal-body contact exceeded 0.05 N in **24.5%–30.0%** of frames, and a provisional side-like coordinate test fired in **36.4%–49.5%** ([contact audit（工作区资料，未随文保存）](../sources.md#workspace-0f2dcb7987a4)). These are location diagnostics, **not proof that all distal contact is unnatural**: pad geometry and the human verdict remain to be established. The v7 24/24 result is valid only for the frozen original gate. Its [best weight and exact video（工作区资料，未随文保存）](../sources.md#workspace-0f2dcb7987a4) remain archived.
+
+[Watch the v7 best-model holdout video（工作区资料，未随文保存）](../sources.md#workspace-690a995aeb85) · [Read all 24 holdout metrics（工作区资料，未随文保存）](../sources.md#workspace-4212f351ff60) · [Open the offline review page（工作区资料，未随文保存）](../sources.md#workspace-2734990d6fc8).
+
+## Repeatable decisions
+
+1. Verify scene orientation, certified grasp duration, actual active contacts, and human motion before expanding the task.
+2. Separate survival, signed angle, handover, posture, true pad location, and human verdict in every table and machine summary.
+3. Freeze gate and seeds; select on validation, evaluate once on independent holdout, and preserve best, latest, and failures.
+4. Change speed, reward, or contact definition in independent runs; a high reward or visually smooth spin cannot override a hard failure.
+5. For continuous 30/60/120-second work, first resolve v7 pad geometry and human acceptance, then extend time without resetting or looping a short clip.
+
+Historical weights are indexed in [the model archive（工作区资料，未随文保存）](../sources.md#workspace-6874daac34c2). The archive labels failed and diagnostic checkpoints; presence in Git is not endorsement.

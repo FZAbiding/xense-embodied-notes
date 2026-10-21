@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-10-12",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "Desktop/TacCap主从夹爪_质量质心惯量调研与重构报告_2026-10-12.md",
+      "source_date": "2026-10-12",
+      "source_sha256": "a84142052cb744a7384b77648711153c5ee82891725f83e51f17fda5399892f3",
+      "destination": "report.md",
+      "destination_sha256": "0b22aac70f548771a42643dc23c7ea36a9936dce8f3b62e6f6917ab8acadd271",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation",
+        "normalize Markdown hard breaks and final newline without changing technical text"
+      ]
+    },
+    {
+      "source": "Desktop/TacCap主夹爪_原始STEP到URDF与物性数据转换步骤_2026-10-12.md",
+      "source_date": "2026-10-12",
+      "source_sha256": "9bbc894002260af36f36414b3add48c4fc332f6ab1406dc74ae45e913e6523f6",
+      "destination": "topics/master-step-to-urdf.md",
+      "destination_sha256": "bcb8475e657c07212dcd820a1771478b10e9ab672e0ae036ee8f53b8fe45ca1d",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation",
+        "normalize Markdown hard breaks and final newline without changing technical text"
+      ]
+    },
+    {
+      "source": "Desktop/TacCap从夹爪_STEP到URDF转换与物性获取学习笔记.md",
+      "source_date": "2026-10-09",
+      "source_sha256": "5fe18c90a45fae2d261363500f8ec51fd299b7817d929c7c13704fc51faab7f4",
+      "destination": "topics/slave-step-to-urdf.md",
+      "destination_sha256": "6f2c6d0dde22e59e561b7ad877d4379637c5e6304750bfff7654bd39a69736a3",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    },
+    {
+      "source": "Desktop/主夹爪与转接件质量属性分离_理论推导与实验流程.md",
+      "source_date": "2026-10-10",
+      "source_sha256": "27ec62bc3f30beb8033cf6b871abed23912f27bbc9e44f579bed622c6ffe75b3",
+      "destination": "topics/tool-adapter-separation.md",
+      "destination_sha256": "024d29d96e54e1891718e56705f37e3df5cb1c071b81b595f9e51acc56172a51",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

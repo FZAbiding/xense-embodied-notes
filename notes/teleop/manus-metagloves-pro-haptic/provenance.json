@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-09-21",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "src/manus-research/MANUS Metagloves Pro Haptic 数采手套技术、机械结构与产品竞争力调研.md",
+      "source_date": "2026-09-21",
+      "source_sha256": "74e16d0dec91cd42fed1e5bc4d5923b6ba113f7406abe4176c87b483a8a5d960",
+      "destination": "report.md",
+      "destination_sha256": "d1453cc37037fa3cb032f53845a8ae58d14e4104ee611389706edb6c50747777",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation",
+        "normalize Markdown hard breaks and final newline without changing technical text"
+      ]
+    },
+    {
+      "source": "src/lerobot-xensehand/docs/manus_ego_wuji_retargeting_analysis.md",
+      "source_date": "2026-09-18",
+      "source_sha256": "c07ed0d9d234f692f5e4d1acf8c956c931f35a4e73c25a3fd88095b881d40028",
+      "destination": "topics/manus-mint-retargeting.md",
+      "destination_sha256": "05f6e72bc1307adb344e33b35c64bffb5ac2b3ec6c5101e8c89a785137db54d2",
+      "changes": [
+        "curated historical retargeting summary",
+        "omit internal implementation and calibration parameters",
+        "retain static-review limitations, target-model difference and unknown runtime protection"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "src/manus-research/mamus.jpeg",
+      "source_sha256": "4bf266443586d04e25d9d8aafeac6ccd3f0d205ff60424bf46dd55ba6f04a15c",
+      "destination": "assets/manus-spec-comparison.jpeg",
+      "destination_sha256": "4bf266443586d04e25d9d8aafeac6ccd3f0d205ff60424bf46dd55ba6f04a15c",
+      "changes": [
+        "copy one referenced historical screenshot unchanged; source author and license unknown"
+      ]
+    }
+  ],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

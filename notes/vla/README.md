@@ -6,4 +6,4 @@
 
 对象示例：pi05、pi0、SmolVLA、GR00T。示例名称不代表已有笔记。
 
-尚无迁入笔记。新增内容请先阅读 [Agent规范](../../AGENTS.md) 和 [贡献流程](../../CONTRIBUTING.md)。
+- [VLA-JEPA：微调配方失误与 delta TCP 动作契约](vla-jepa-finetune/README.md)：提炼错误训练入口和未保存checkpoint的教训，说明20D绝对TCP与14D增量动作的参考系、积分和兼容边界。

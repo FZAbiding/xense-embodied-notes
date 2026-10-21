@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-10-15",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "src/xense-description/docs/USD_CONVERSION_FEASIBILITY.md",
+      "source_date": "2026-10-15",
+      "source_sha256": "255a02c16af55e755d4d1a08159177d0c84cdd6c340c2a5204988524917104f9",
+      "destination": "report.md",
+      "destination_sha256": "fed273a14e772f0fa2784bff9114b8aaa1a7553ede7ef95300411579a2702de5",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    },
+    {
+      "source": "src/xense-description/docs/USD_ASSET_AUDIT_AND_ROADMAP.md",
+      "source_date": "2026-10-15",
+      "source_sha256": "44a7ad19dd43dc65417dea531319deefd97be95c273749e9bb21aaba80980aac",
+      "destination": "topics/usd-source-audit.md",
+      "destination_sha256": "34797ea589eef8a2ae67166ecf82587041dca6cf0be30cbcea4620194f6cb407",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation",
+        "replace machine-specific temporary output or upstream workstation paths with portable notation"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

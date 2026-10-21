@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-10-20",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "src/php_parkour/PHP_HUMANOID_LOCOMOTION_BEGINNER_GUIDE.md",
+      "source_date": "unknown",
+      "source_sha256": "a175d6b81015b3a8e426c2f34618a56d92fc94992cd4c6ea995e06b9f80e8ed8",
+      "destination": "report.md",
+      "destination_sha256": "51f7d6a9a90908ffe249c9ac9e2891e332bbe0cfe1a3ebc9360a44fd66f8139b",
+      "changes": [
+        "curated learning summary from selected source material",
+        "omit internal implementation, local deployment details and unrelated claims",
+        "retain failures, historical protocol differences and unverified scope"
+      ],
+      "source_date_note": "Source contains no explicit date; the dated project guide cites it. Topic source_date comes from the 2026-10-20 project guide."
+    },
+    {
+      "source": "src/php_parkour/PHP_PARKOUR_PROJECT_GUIDE.md",
+      "source_date": "2026-10-20",
+      "source_sha256": "f44d4b42cedaa02a04217924114f49c17c45ed6173321258e018efc3e8b007ca",
+      "destination": "report.md",
+      "destination_sha256": "51f7d6a9a90908ffe249c9ac9e2891e332bbe0cfe1a3ebc9360a44fd66f8139b",
+      "changes": [
+        "additional source used for the same curated summary",
+        "retain source-specific original date and hash"
+      ]
+    },
+    {
+      "source": "src/php_parkour/PHP_REPRODUCTION_GUIDE.md",
+      "source_date": "2026-10-15",
+      "source_sha256": "4b69b753821c2b116688fe806e4cbabb0e2b06fe70fe6377975bfb80261a5d98",
+      "destination": "report.md",
+      "destination_sha256": "51f7d6a9a90908ffe249c9ac9e2891e332bbe0cfe1a3ebc9360a44fd66f8139b",
+      "changes": [
+        "additional source used for the same curated summary",
+        "retain source-specific original date and hash"
+      ]
+    },
+    {
+      "source": "src/php_parkour/reports/phase1_second_block_diagnosis_2026-10-17.md",
+      "source_date": "2026-10-17",
+      "source_sha256": "bcf180b83b1218bcefc8ca508c39006a83c72fa0e3b9e88e047ec7836d95cc45",
+      "destination": "report.md",
+      "destination_sha256": "51f7d6a9a90908ffe249c9ac9e2891e332bbe0cfe1a3ebc9360a44fd66f8139b",
+      "changes": [
+        "additional source used for the same curated summary",
+        "retain source-specific original date and hash"
+      ]
+    },
+    {
+      "source": "src/php_parkour/reports/phase1_second_block_live_trace_2026-10-19.md",
+      "source_date": "2026-10-19",
+      "source_sha256": "b37a7d78891d568d74d8fca43ef8079e4316237b955d61e536cda890182d94e5",
+      "destination": "topics/second-block-trace.md",
+      "destination_sha256": "2844ccba9d47bab5bca0f253372daa7395209b38457d029833b0f92c2a223df8",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    },
+    {
+      "source": "src/php_parkour/reports/phase1_block_aware_2026-10-19.md",
+      "source_date": "2026-10-19",
+      "source_sha256": "20d0822bc57ee6fcae05bfc2e3f386f600361dcd627dadbd6224cd385be26e68",
+      "destination": "topics/block-aware.md",
+      "destination_sha256": "795e2fd4509f7fe97efd533d8cef4ff08e16000cd0a53e4049f3ade82d1c733d",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

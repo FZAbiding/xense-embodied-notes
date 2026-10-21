@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-09-18",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "src/DAS/简智 GenRobot DAS 具身数据采集设备调研报告.md",
+      "source_date": "2026-09-18",
+      "source_sha256": "aad23dd9237daf8906544d5a36ae4abf5373bab2f581f5a136ffbaa9b0075558",
+      "destination": "report.md",
+      "destination_sha256": "b1ec728054a45389c57a0eedd2a7ba31dbd7b61f06f60b09301c375e42803be1",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation",
+        "normalize Markdown hard breaks and final newline without changing technical text"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}

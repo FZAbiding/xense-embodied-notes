@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "migration_date": "2026-10-22",
+  "migration_revision": "local-document-collection-2026-10-22-v1",
+  "source_date": "2026-10-20",
+  "capture_scope": "Exact selected file hashes only; original authors unknown; no model/training/hardware revalidation; source workspaces retained.",
+  "documents": [
+    {
+      "source": "src/xense-hand-rl/PROJECT_SUMMARY.md",
+      "source_date": "2026-09-25",
+      "source_sha256": "4101349f216cf324b9f1068af5b673948d1d8470ffe6d0008137d1adfd8df87f",
+      "destination": "report.md",
+      "destination_sha256": "a20b40511fe2318ea7f5588e50895c61eeb0a3a32ab2219a550910cd961dae72",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    },
+    {
+      "source": "src/xense-hand-rl/reports/wuji_hand2/REPORT.md",
+      "source_date": "2026-09-25",
+      "source_sha256": "bd14cc1b7647fbad0f6a5173f8e3b9c49ce70a64425d2a35fa1d57d366473cd5",
+      "destination": "topics/wuji-withdrawn-comparison.md",
+      "destination_sha256": "48af9150ede82bc607968229603cf4f7319dd1028b852536ccbd056d94a9654e",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    },
+    {
+      "source": "src/xense-hand-rl/reports/wuji_hand2/V1_V7_LESSONS.md",
+      "source_date": "2026-10-17",
+      "source_sha256": "4b48ea4c7686a812a7d0789941f5670575abef48d95b332e700403d9091738ac",
+      "destination": "topics/wuji-v1-v7-lessons.md",
+      "destination_sha256": "6107d3f4bac927950aedca14c5eca3df0e8037637687a719f42dcfbd08226067",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    },
+    {
+      "source": "src/xense-hand-rl/reports/wuji_hand2/palm_up_human_demo_v10/overnight_robustness_20261020/REVIEW.md",
+      "source_date": "2026-10-20",
+      "source_sha256": "495bd698ec78c4d98ae53edd4060bda5f3dcbe2305dd5924af666b18dcda8104",
+      "destination": "topics/wuji-v10.md",
+      "destination_sha256": "3145ef3b6116bc0a5bc91b7182f8e836aee1fe401e4849ac4e72dd2845900fa4",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    },
+    {
+      "source": "src/xense-hand-rl/reports/wuji_hand2/palm_up_human_demo_v11/stronger_push_20261020/REVIEW.md",
+      "source_date": "2026-10-20",
+      "source_sha256": "cdd1cab09c4a243e6878a1f90431edf18dba935de624d5048c4844107765f0eb",
+      "destination": "topics/wuji-v11.md",
+      "destination_sha256": "99e2e8858c88f3ec750520c699be37123ecc6664aea08a9946a6a20a534edc69",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    },
+    {
+      "source": "src/xense-hand-rl/reports/wuji_hand2/palm_up_human_demo_v12/preflight_20261020/REVIEW.md",
+      "source_date": "2026-10-20",
+      "source_sha256": "0910a400fefa3f104d264ce7431acba67ae83865c331de11ddc8797dc2daaf70",
+      "destination": "topics/wuji-v12-preflight.md",
+      "destination_sha256": "adf893ee89841e226fdfd2f140a57a1bedf73ca8804cc9e5ca53f628b55d4120",
+      "changes": [
+        "copy historical report",
+        "add explicit historical evidence boundary",
+        "rewrite local links to selected notes or workspace source descriptions",
+        "replace absolute workstation prefixes with logical workspace notation"
+      ]
+    }
+  ],
+  "assets": [],
+  "excluded": [
+    "source repositories",
+    "CAD and robot model libraries",
+    "weights and datasets",
+    "environments and raw logs",
+    "duplicate document exports"
+  ]
+}
