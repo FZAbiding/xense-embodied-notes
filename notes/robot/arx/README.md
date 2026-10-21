@@ -4,11 +4,11 @@ title: "ARX / Seeed B601-DM：双臂平台研究阶段总结"
 type: "survey"
 status: "snapshot"
 created: "2026-10-16"
-updated: "2026-10-16"
-source_date: "2026-10-16"
+updated: "2026-10-18"
+source_date: "2026-10-18"
 verification: "mixed"
 tags: ["robot", "arx", "acone", "seeed", "b601-dm", "dual-arm", "hardware", "control"]
-summary: "整理ACOne与B601-DM的结构、控制、臂展、LIFT及防坠急停研究，保留R2布局和R3资料边界。"
+summary: "保留ARX/Seeed R3历史总结，新增R3.1模型重力矩、抱闸选型与急停承重交接，实机验收仍待完成。"
 ---
 
 # ARX / Seeed B601-DM：双臂平台研究阶段总结
@@ -16,8 +16,10 @@ summary: "整理ACOne与B601-DM的结构、控制、臂展、LIFT及防坠急停
 ## 本阶段范围
 
 原研究对 ARX ACOne/A5/X5、Seeed B601-DM 及 LIFT/LIFT-mini 进行了资料、几何和源码对比。
-本次捕获的是 R3 资料版：保留 R2 机械布局，包含防坠与急停增量专题。原研究日期为 2026-10-16，由 Agent 辅助完成。
-这次迁入只整理总结、专题和必要预览，不迁入原始 CAD、URDF、源码、代码摘录或运行环境。来源见 [sources.md](sources.md)。
+首批捕获的是 R3 资料版：保留 R2 机械布局，包含防坠与急停增量专题。原研究日期为 2026-10-16，由 Agent 辅助完成。
+首批迁入只整理总结、专题和必要预览，不迁入原始 CAD、URDF、源码、代码摘录或运行环境。来源见 [sources.md](sources.md)。
+
+2026-10-18另增R3.1专题：模型静态重力矩、偏心载荷、制动延迟和承重交接。只新增该专题与两张图，前批R3总报告和专题保持原快照，不声称旧文件已同步成新版。
 
 ## 先记住的结论
 
@@ -40,6 +42,7 @@ summary: "整理ACOne与B601-DM的结构、控制、臂展、LIFT及防坠急停
 - [LIFT / LIFT-mini官方资源与横向比较](topics/12_lift_resources_and_comparison.md)。
 - [ACOne/X5与Seeed B601-DM臂展比较](topics/14_arm_reach_comparison.md)。
 - [Seeed B601-DM 防坠、异常下使能与急停设计](topics/15_fall_prevention_and_emergency_stop.md)。
+- [R3.1增量：模型重力矩、抱闸选型与急停承重交接](topics/16_safety_engineering_and_brake_sizing.md)。
 - [来源、固定提交与未随文保存资料](sources.md)。
 - [迁入清单与原文哈希](provenance.json)。
 
@@ -47,7 +50,7 @@ summary: "整理ACOne与B601-DM的结构、控制、臂展、LIFT及防坠急停
 
 原报告的公开文件核查、几何分析与离线检查继承其原始边界，详细方法和例外仍以对应专题为准。
 涉及用户 ACOne 配置的确认只适用于原报告中的特定设备；内部代码证据未迁入本库。
-本轮未重新执行原模型/控制验证；制造、真实CAN时序、标定、持续负载、碰撞及防坠急停验收仍不能由本次归档代替。
+首批迁入未重新执行原模型/控制验证。2026-10-18增量在原工程仅执行新重力模型、独立势能/FK及算术复核；制造、真实CAN时序、标定、持续负载、碰撞及防坠急停实测仍未完成。
 
 ## 后续学习
 
@@ -56,3 +59,5 @@ summary: "整理ACOne与B601-DM的结构、控制、臂展、LIFT及防坠急停
 ## 更新记录
 
 - 2026-10-16：首批迁入，保留原阶段结论与验证边界，整理链接与精选素材。
+
+- 2026-10-18：新增R3.1工程化专题与两张图，保留R3历史正文；更新来源和本轮源/目标哈希。

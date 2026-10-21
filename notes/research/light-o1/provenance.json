@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-20T11:27:51.678352+08:00",
+  "source_date": "2026-10-20",
+  "migration_date": "2026-10-20",
+  "migration_version": "research-migration-v1",
+  "source_workspace": "light-o1",
+  "source_identity": "assistant-assisted research in this conversation",
+  "migration_scope": "explicit report, inherited guidance and five referenced SVG files; original workspace preserved",
+  "verification_scope": "archive, hashes, SVG XML and notes admission only; no new technical experiments",
+  "upstream_revision": "complete immutable upstream revisions were not captured in the original report",
+  "documents": [
+    {
+      "source": "light-o1/Light-O1_架构数据与行业对比调研报告.md",
+      "source_sha256": "66aa7be846adb7a2fac0e88ba99b84c89b51f4d1aefc6ef87c68b71eca1dcd1e",
+      "destination": "report.md",
+      "destination_sha256": "af3975ee637bb6c9b0bd0bd72628f9732468beea84b55fb85d0e42a1e993fccb",
+      "changes": [
+        "rename long report to report.md",
+        "add historical-snapshot boundary",
+        "replace workspace paths and sibling links",
+        "normalize trailing whitespace while preserving Markdown hard breaks"
+      ]
+    },
+    {
+      "source": "light-o1/AGENTS.md",
+      "source_sha256": "834b74c5738d3ede00d3a11bb4189a873b5ad0432fcdee3dd9cea102bfb70aa3",
+      "destination": "AGENTS.md",
+      "destination_sha256": "9fc568c249b2df8aad1568735114efbcd56380d13e21e8606b561056017aca0d",
+      "changes": [
+        "adapt inherited maintenance guidance to notes rules",
+        "link parent admission rules",
+        "replace workspace paths and sibling links"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "light-o1/assets/light-o1/01-system-boundaries.svg",
+      "source_sha256": "97b78d5501d272f230513311960d3d7d252ca5199462cd42c40d100843ecb956",
+      "destination": "assets/light-o1/01-system-boundaries.svg",
+      "destination_sha256": "97b78d5501d272f230513311960d3d7d252ca5199462cd42c40d100843ecb956",
+      "role": "original teaching SVG; copied without modification"
+    },
+    {
+      "source": "light-o1/assets/light-o1/02-token-decoder.svg",
+      "source_sha256": "99dd1af8c2fb39dd8bb0f0462f478c9b7bdf5afe8fc7175a965d1dcabcd18b5f",
+      "destination": "assets/light-o1/02-token-decoder.svg",
+      "destination_sha256": "99dd1af8c2fb39dd8bb0f0462f478c9b7bdf5afe8fc7175a965d1dcabcd18b5f",
+      "role": "original teaching SVG; copied without modification"
+    },
+    {
+      "source": "light-o1/assets/light-o1/03-action-138.svg",
+      "source_sha256": "45d87c869671c36ef489f4f46d8ed4c24c810dfc129448272c31c3e57ab69616",
+      "destination": "assets/light-o1/03-action-138.svg",
+      "destination_sha256": "45d87c869671c36ef489f4f46d8ed4c24c810dfc129448272c31c3e57ab69616",
+      "role": "original teaching SVG; copied without modification"
+    },
+    {
+      "source": "light-o1/assets/light-o1/04-data-pipeline.svg",
+      "source_sha256": "0cfd2199af25394935edee8609a0851a6b36241feadb296d7bbcd03c9c64d8ef",
+      "destination": "assets/light-o1/04-data-pipeline.svg",
+      "destination_sha256": "0cfd2199af25394935edee8609a0851a6b36241feadb296d7bbcd03c9c64d8ef",
+      "role": "original teaching SVG; copied without modification"
+    },
+    {
+      "source": "light-o1/assets/light-o1/05-evidence-ladder.svg",
+      "source_sha256": "e109b9424164ace347ae81f1600c7debc08cd84063ecc6c03213ee025a050880",
+      "destination": "assets/light-o1/05-evidence-ladder.svg",
+      "destination_sha256": "e109b9424164ace347ae81f1600c7debc08cd84063ecc6c03213ee025a050880",
+      "role": "original teaching SVG; copied without modification"
+    }
+  ],
+  "generated_documents": [
+    "README.md",
+    "sources.md"
+  ],
+  "excluded": [
+    "weights",
+    "datasets",
+    "third-party source trees",
+    "SDKs",
+    "environments",
+    "raw logs"
+  ],
+  "source_workspace_archive": {
+    "relative_to": "user-home",
+    "path": "research-archives/embodied-notes-2026-10-20/light-o1",
+    "previous_path_relative_to_user_home": "src/light-o1",
+    "relocated_at": "2026-10-20T19:33:06.903779+08:00",
+    "method": "atomic directory rename",
+    "source_file_count": 7,
+    "original_file_bytes_preserved": true,
+    "reason": "user requested moving the original directories out of src top level"
+  }
+}

@@ -6,4 +6,4 @@
 
 对象示例：ARX、Seeed B601-DM、Flexiv、Franka。示例名称不代表已有笔记。
 
-- [ARX / Seeed B601-DM：双臂平台研究阶段总结](arx/README.md)：整理ACOne与B601-DM的结构、控制、臂展、LIFT及防坠急停研究，保留R2布局和R3资料边界。
+- [ARX / Seeed B601-DM：双臂平台研究阶段总结](arx/README.md)：保留ARX/Seeed R3历史总结，新增R3.1模型重力矩、抱闸选型与急停承重交接，实机验收仍待完成。

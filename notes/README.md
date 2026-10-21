@@ -19,3 +19,4 @@
 | [hand · 灵巧手](hand/README.md) | 灵巧手产品、机构驱动、感知和整手能力比较 | 3 |
 | [teleop · 遥操作与动作映射](teleop/README.md) | 遥操作系统、手套、retargeting和控制映射专题 | 0 |
 | [data · 具身数据工程](data/README.md) | 多模态数据格式、同步、标注、质检与数据生产 | 0 |
+| [research · 暂未归类调研](research/README.md) | 暂未归类的阶段性调研资料；归类明确后迁入对应分类 | 3 |

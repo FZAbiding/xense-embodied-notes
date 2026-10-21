@@ -11,5 +11,6 @@
   {"slug":"sim","title":"机器人仿真","scope":"仿真平台、物理建模、仿真评估与sim-to-real方法","examples":"MuJoCo、Isaac、Genesis、URDF/MJCF/USD"},
   {"slug":"hand","title":"灵巧手","scope":"灵巧手产品、机构驱动、感知和整手能力比较","examples":"Wuji、Revo、Sharpa、LEAP"},
   {"slug":"teleop","title":"遥操作与动作映射","scope":"遥操作系统、手套、retargeting和控制映射专题","examples":"MANUS、主从映射、手部重定向"},
-  {"slug":"data","title":"具身数据工程","scope":"多模态数据格式、同步、标注、质检与数据生产","examples":"MCAP、LeRobot、RLDS、时间同步"}
+  {"slug":"data","title":"具身数据工程","scope":"多模态数据格式、同步、标注、质检与数据生产","examples":"MCAP、LeRobot、RLDS、时间同步"},
+  {"slug":"research","title":"暂未归类调研","scope":"暂未归类的阶段性调研资料；归类明确后迁入对应分类","examples":"Natura-1、Light-O1、待归类的模型与行业调研"}
 ]

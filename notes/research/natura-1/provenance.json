@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-20T11:27:51.678352+08:00",
+  "source_date": "2026-10-20",
+  "migration_date": "2026-10-20",
+  "migration_version": "research-migration-v1",
+  "source_workspace": "natura-1",
+  "source_identity": "assistant-assisted research in this conversation",
+  "migration_scope": "explicit report, inherited guidance and five referenced SVG files; original workspace preserved",
+  "verification_scope": "archive, hashes, SVG XML and notes admission only; no new technical experiments",
+  "upstream_revision": "complete immutable upstream revisions were not captured in the original report",
+  "documents": [
+    {
+      "source": "natura-1/Natura-1_架构数据与行业对比调研报告.md",
+      "source_sha256": "83af1e0c3c11a5e5ad3604745480b801d423754bc818766c39275be1d98439df",
+      "destination": "report.md",
+      "destination_sha256": "b02c4f928d8dcf240c6a7f5a00dcfd039e73423a6dd22be0450a020bb8313f76",
+      "changes": [
+        "rename long report to report.md",
+        "add historical-snapshot boundary",
+        "replace workspace paths and sibling links"
+      ]
+    },
+    {
+      "source": "natura-1/AGENTS.md",
+      "source_sha256": "7fedfb13ba6ccc6bd625d70de9e8887455cd8d1ddc9b84cc0bced5295c572a70",
+      "destination": "AGENTS.md",
+      "destination_sha256": "a782742866926044d04b27069edfcc93489238779afeda7bd79caecfed8eb5e7",
+      "changes": [
+        "adapt inherited maintenance guidance to notes rules",
+        "link parent admission rules",
+        "replace workspace paths and sibling links"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "natura-1/assets/natura-1/01-openpi.svg",
+      "source_sha256": "2d3bdf27cce027c3c2d84180081e7879e3f9ad5817099eb0c5b2bc9ebedd9b56",
+      "destination": "assets/natura-1/01-openpi.svg",
+      "destination_sha256": "2d3bdf27cce027c3c2d84180081e7879e3f9ad5817099eb0c5b2bc9ebedd9b56",
+      "role": "original teaching SVG; copied without modification"
+    },
+    {
+      "source": "natura-1/assets/natura-1/02-natura.svg",
+      "source_sha256": "9820a51ba2b7b963bc0fe4cab63d87c27fc3a773016777b6bc79258b3924c5bd",
+      "destination": "assets/natura-1/02-natura.svg",
+      "destination_sha256": "9820a51ba2b7b963bc0fe4cab63d87c27fc3a773016777b6bc79258b3924c5bd",
+      "role": "original teaching SVG; copied without modification"
+    },
+    {
+      "source": "natura-1/assets/natura-1/03-moe.svg",
+      "source_sha256": "c5dc47f642fcf2941741e96883e7af4805fdc7c14aa85b73bdb41310fc4b9878",
+      "destination": "assets/natura-1/03-moe.svg",
+      "destination_sha256": "c5dc47f642fcf2941741e96883e7af4805fdc7c14aa85b73bdb41310fc4b9878",
+      "role": "original teaching SVG; copied without modification"
+    },
+    {
+      "source": "natura-1/assets/natura-1/04-data.svg",
+      "source_sha256": "e83bed03ce32d20528bf098a75150b34dfa4535ba9972d8f72a64aea896973c7",
+      "destination": "assets/natura-1/04-data.svg",
+      "destination_sha256": "e83bed03ce32d20528bf098a75150b34dfa4535ba9972d8f72a64aea896973c7",
+      "role": "original teaching SVG; copied without modification"
+    },
+    {
+      "source": "natura-1/assets/natura-1/05-training.svg",
+      "source_sha256": "ded6b860dcc6f246edb4809f1ebcf1b00aaf47b20a8328fdef73474eba1ef954",
+      "destination": "assets/natura-1/05-training.svg",
+      "destination_sha256": "ded6b860dcc6f246edb4809f1ebcf1b00aaf47b20a8328fdef73474eba1ef954",
+      "role": "original teaching SVG; copied without modification"
+    }
+  ],
+  "generated_documents": [
+    "README.md",
+    "sources.md"
+  ],
+  "excluded": [
+    "weights",
+    "datasets",
+    "third-party source trees",
+    "SDKs",
+    "environments",
+    "raw logs"
+  ],
+  "source_workspace_archive": {
+    "relative_to": "user-home",
+    "path": "research-archives/embodied-notes-2026-10-20/natura-1",
+    "previous_path_relative_to_user_home": "src/natura-1",
+    "relocated_at": "2026-10-20T19:33:06.903779+08:00",
+    "method": "atomic directory rename",
+    "source_file_count": 7,
+    "original_file_bytes_preserved": true,
+    "reason": "user requested moving the original directories out of src top level"
+  }
+}

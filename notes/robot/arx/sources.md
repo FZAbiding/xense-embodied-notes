@@ -2,7 +2,7 @@
 
 这是原研究的阶段快照。原材料留在逻辑工作区 `cad/arx`，本笔记包只保存总结与精选图表。
 
-原研究由 Agent 辅助完成，具体模型/作者身份未从材料中可靠确认。本轮只处理归档、阅读导航和链接，不把原结论标成重新验证。
+原研究由 Agent 辅助完成，具体模型/作者身份未从材料中可靠确认。首批迁入只处理归档、阅读导航和链接，不把原结论标成重新验证。2026-10-18另增R3.1模型计算与工程化专题，其新增复核范围和来源单列在文末，不外推为旧报告全部结论的重新验证。
 
 ## 固定版本的一手仓库
 
@@ -353,3 +353,70 @@ R3 防坠/急停章节为资料与设计讨论；原研究没有宣布真机故�
 原 Markdown 的技术结论未在本轮主动改写；阅读链接、绝对路径前缀及历史快照提示已调整。
 原报告 PDF/HTML、原始 CAD/模型/权重、源码、分析环境及运行日志均留在研究工作区。
 仓库统一许可证尚未选择；第三方内容不因迁入而获得新的许可。
+
+
+## 2026-10-18 R3.1增量来源与边界
+
+原R3正文与上述来源哈希保留为首批快照。本轮只新增专题16及两张必要图；模型数值来自原工作区固定Seeed DM URDF，新增计算不是实物称重、整机掉落仿真或安全认证。
+
+新增图由本轮原工程的分析/绘图脚本生成，许可尚未单独授予；不迁入底层模型或原厂文档。
+
+- [mayr_cobot_product](https://www.mayr.com/en/products/safety-brakes/industrial-brakes/roba-servostop-cobot~40645)：2026-10-18归档，SHA256 `856eef4dd2584bd8a4bcae88bbd9278de602bb817e67ce3a8f621c3f6e176d94`；原厂资料留在研究工作区，未复制到本库，权利属于原权利人。
+- [mayr_cobot_manual](https://www.mayr.com/produkte/dokumentationen/bremsen/roba-servostop-cobot/b.8981.en_23-11-2023.pdf)：2026-10-18归档，SHA256 `2659aa7161921795633809f8bcea0b64e9058699fb420001f98ba9c06af3c078`；原厂资料留在研究工作区，未复制到本库，权利属于原权利人。
+- [mayr_static_test](https://www.mayr.com/produkte/zusaetzliche-informationen/hinweise-und-empfehlungen-zum-statischen-bremsentest_en-rotation.pdf)：2026-10-18归档，SHA256 `dada4ef99dd46b9672f90def89c8f64b3ced1a5a64c844a2c3e3fdf60e9f701f`；原厂资料留在研究工作区，未复制到本库，权利属于原权利人。
+- [mayr_servostop_catalog](https://www.mayr.com/produkte/dokumentationen/bremsen/roba-servostop/p_898000_v06_en_05_10_2023.pdf)：2026-10-18归档，SHA256 `4817596c0ce45974153f9d18d1f75d3346518bc9889bd49763333d50825d1bae`；原厂资料留在研究工作区，未复制到本库，权利属于原权利人。
+
+<a id="detail18-a6f3496d8c97"></a>
+
+### R3.1工作区资料 `data/brake_delay_examples.json`
+
+未随文保存；用于说明计算/复核依赖，不是本仓库附件。原文件1,642字节，SHA256 `23c05c60507d4073ce926ac3365285bd0faf0a411c59dd06fa5b269d2a16b4df`。
+
+<a id="detail18-9df42f83831b"></a>
+
+### R3.1工作区资料 `data/brake_sizing_model.json`
+
+未随文保存；用于说明计算/复核依赖，不是本仓库附件。原文件30,473字节，SHA256 `4f033b77b07c48627771243c3b948152d2a2f60103b76d8ca60a8697e3a6cb2d`。
+
+<a id="detail18-3335c900d307"></a>
+
+### R3.1工作区资料 `data/brake_sizing_summary.csv`
+
+未随文保存；用于说明计算/复核依赖，不是本仓库附件。原文件1,585字节，SHA256 `26d2c9f4fc9937e12905ddf8559d037a777b59235c46b8c34eadd7076c773fab`。
+
+<a id="detail18-aab17a7fa111"></a>
+
+### R3.1工作区资料 `data/safety_detail_references.json`
+
+未随文保存；用于说明计算/复核依赖，不是本仓库附件。原文件2,491字节，SHA256 `a2bb3fe127043b70075a2af3bd266a6c12bf75e6322eaff114a578731070a6fe`。
+
+<a id="detail18-b639430c3b93"></a>
+
+### R3.1工作区资料 `data/safety_engineering_validation.json`
+
+未随文保存；用于说明计算/复核依赖，不是本仓库附件。原文件1,646字节，SHA256 `c4019f0e043ad1dac6c6aa130540690956b5d69046274bb9253929588e86f5b6`。
+
+<a id="detail18-c685fc1eee0f"></a>
+
+### R3.1工作区资料 `data/safety_fault_response_matrix.csv`
+
+未随文保存；用于说明计算/复核依赖，不是本仓库附件。原文件2,088字节，SHA256 `9224cc8c4d0c5dafdb1b18c2a35a62d60a004285eb393c19b8f2b728f73bc466`。
+
+<a id="detail18-b3d7345c33e6"></a>
+
+### R3.1工作区资料 `data/safety_selection_worksheet.csv`
+
+未随文保存；用于说明计算/复核依赖，不是本仓库附件。原文件1,431字节，SHA256 `f1c700f9e52b6dec6d5a0c950ed15f70674217fd5e3fc9a0848133411ff496be`。
+
+<a id="detail18-4b9a035a7225"></a>
+
+### R3.1工作区资料 `scripts/analyze_brake_sizing.py`
+
+未随文保存；用于说明计算/复核依赖，不是本仓库附件。原文件8,743字节，SHA256 `10634db24b8d714e2c301dcb979bb4d6afb7ec6d3b7cdb4138e20d0b7c7c268d`。
+
+### R3.1随文图
+
+- [模型重力矩图](assets/previews/gravity_brake_loads.png)：原工程本轮生成的模型估算，非实测。
+- [承重交接图](assets/previews/emergency_stop_transfer.png)：本轮功能阶段示意，横轴不是实测时间。
+
+具体迁入哈希见provenance.json；本轮记录不覆盖以后原工程的变化。

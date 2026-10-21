@@ -1,0 +1,37 @@
+{
+  "source_date": "2026-10-20",
+  "repository": "xense-openpi",
+  "revision": "1424384a975b443eaac70b416189067a8547c94c",
+  "method": "Original research: CPU flax.nnx.eval_shape parameter-shape accounting; no checkpoint loaded.",
+  "migration_verification": "Summary copied from original results; calculation not rerun during migration.",
+  "models": {
+    "pi0": {
+      "config": {
+        "action_dim": 32,
+        "action_horizon": 50,
+        "pi05": false
+      },
+      "counts": {
+        "vision_encoder_and_projector": 414803696,
+        "language_backbone": 2508531712,
+        "action_expert_transformer": 311464960,
+        "action_time_state_projections": 3248160
+      },
+      "total": 3238048528
+    },
+    "pi05": {
+      "config": {
+        "action_dim": 32,
+        "action_horizon": 50,
+        "pi05": true
+      },
+      "counts": {
+        "vision_encoder_and_projector": 414803696,
+        "language_backbone": 2508531712,
+        "action_expert_transformer": 427932672,
+        "action_time_state_projections": 2165792
+      },
+      "total": 3353433872
+    }
+  }
+}

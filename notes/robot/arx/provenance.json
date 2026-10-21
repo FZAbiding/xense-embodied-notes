@@ -148,6 +148,16 @@
         "rewrite portable links",
         "replace absolute workspace prefix"
       ]
+    },
+    {
+      "source": "cad/arx/docs/16_safety_engineering_and_brake_sizing.md",
+      "source_sha256": "856f182b00613838eadb4dbc7f507ce482d88401b69737c0db5a0860ba9441bb",
+      "destination": "topics/16_safety_engineering_and_brake_sizing.md",
+      "destination_sha256": "974588bbf6bdb3769240e004b997ea95ecab5f584e10275e61bf088a972d3ea3",
+      "source_date": "2026-10-18",
+      "changes": [
+        "add R3.1 incremental boundary and portable links"
+      ]
     }
   ],
   "assets": [
@@ -213,6 +223,26 @@
       "destination": "assets/previews/seeed_dm.png",
       "destination_sha256": "aa6e6a99f985a7a59a6dcb71d080b0af584314705d31739119e35997c4521680",
       "role": "原研究生成的分析图/模型预览；未在本轮重新生成"
+    },
+    {
+      "source": "cad/arx/previews/gravity_brake_loads.png",
+      "source_sha256": "f70ed97703e2c34fe1b47dd88ecb4976eca9a16e8c848f4ce8ff6c5c7e2269e4",
+      "destination": "assets/previews/gravity_brake_loads.png",
+      "destination_sha256": "f70ed97703e2c34fe1b47dd88ecb4976eca9a16e8c848f4ce8ff6c5c7e2269e4",
+      "source_date": "2026-10-18",
+      "changes": [
+        "copy selected original generated figure unchanged"
+      ]
+    },
+    {
+      "source": "cad/arx/previews/emergency_stop_transfer.png",
+      "source_sha256": "3a3a127b04d2a633767730d9c189c9887199540fb96c97158a36911c98089fc7",
+      "destination": "assets/previews/emergency_stop_transfer.png",
+      "destination_sha256": "3a3a127b04d2a633767730d9c189c9887199540fb96c97158a36911c98089fc7",
+      "source_date": "2026-10-18",
+      "changes": [
+        "copy selected original generated figure unchanged"
+      ]
     }
   ],
   "excluded": [
@@ -225,5 +255,17 @@
     "environments",
     "logs",
     "duplicate PDF/HTML exports"
+  ],
+  "updates": [
+    {
+      "date": "2026-10-18",
+      "source_revision": "R3.1 incremental; original R3 snapshot retained",
+      "verification_scope": "New model gravity study and independent FK/potential checks performed in source workspace; note checks only archive/links; no hardware validation.",
+      "selected_files": [
+        "topics/16_safety_engineering_and_brake_sizing.md",
+        "assets/previews/gravity_brake_loads.png",
+        "assets/previews/emergency_stop_transfer.png"
+      ]
+    }
   ]
 }

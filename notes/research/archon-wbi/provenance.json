@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-20T19:32:58.013465+08:00",
+  "source_date": "2026-10-20",
+  "migration_date": "2026-10-20",
+  "migration_version": "archon-wbi-research-migration-v1",
+  "source_workspace": "WBI",
+  "source_identity": "assistant-assisted research in this conversation",
+  "migration_scope": "Completed 15-section report, nine referenced raster figures and compact parameter summary; original workspace preserved.",
+  "verification_scope": "Migration, original evidence consistency, image decoding, hashes, metadata, indexes and local links only; no new technical experiments or online revalidation.",
+  "original_partial_report_sha256": "0bd4c659359e5310a454dbe6254043b55d5246b853dfc9e64461446edad08713",
+  "prepared_continuation_sha256": "1ea3df6e44337d641adf61e01bc89818ef5709998911880b101f368417b6c9d5",
+  "completion_record_sha256": "d43dde3169beac551e11735dc9ffb9376b14d079da056a6214cc3ec3723b7531",
+  "upstream_revisions": {
+    "local_xense_openpi": "1424384a975b443eaac70b416189067a8547c94c",
+    "egohumanoid_v2": "7f72d1c442d821e6705d4a9f234507af0b6232e4"
+  },
+  "documents": [
+    {
+      "source": "WBI/源策未来技术路线调研与学习报告_2026-10-20.md",
+      "source_sha256": "598fc13aa258429ba12a3d283ea17ad97674fa17af5ee2b6bd8eb81e2f04e0b3",
+      "destination": "report.md",
+      "destination_sha256": "196277839810e0351bca8282112620eaa7e6e8f912d074d95f2fde88e8dc9506",
+      "changes": [
+        "Complete previously drafted sections 7–15 in original workspace before capture; preceding partial SHA recorded separately.",
+        "Rename report, add historical snapshot and verification boundaries.",
+        "Replace workstation absolute links with labeled sources-page references.",
+        "Use compact parameter summary; retain scripts and raw evidence in original workspace.",
+        "Correct attachment description to match compact counts; full per-leaf metadata remains workspace-only."
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "WBI/assets/archon-wbi/s0_sample.jpg",
+      "source_sha256": "5204d55a99a3187809991cc13cd7989a429398077eaae905a5cef6326cffd85f",
+      "destination": "assets/archon-wbi/s0_sample.jpg",
+      "destination_sha256": "5204d55a99a3187809991cc13cd7989a429398077eaae905a5cef6326cffd85f",
+      "changes": [
+        "Copied without modification; referenced by report.md."
+      ]
+    },
+    {
+      "source": "WBI/assets/archon-wbi/02_pi05_vlm_ae.png",
+      "source_sha256": "5d39bda1520fa4095acbb566492e3272770e8d4bcc209981246b7867236b4eb9",
+      "destination": "assets/archon-wbi/02_pi05_vlm_ae.png",
+      "destination_sha256": "5d39bda1520fa4095acbb566492e3272770e8d4bcc209981246b7867236b4eb9",
+      "changes": [
+        "Copied without modification; referenced by report.md."
+      ]
+    },
+    {
+      "source": "WBI/assets/archon-wbi/01_wbi_stack.png",
+      "source_sha256": "835025d7b0e9fe7efa01d5029ddc8d600f0b04359f2fae24dfd61a1637228052",
+      "destination": "assets/archon-wbi/01_wbi_stack.png",
+      "destination_sha256": "835025d7b0e9fe7efa01d5029ddc8d600f0b04359f2fae24dfd61a1637228052",
+      "changes": [
+        "Copied without modification; referenced by report.md."
+      ]
+    },
+    {
+      "source": "WBI/assets/archon-wbi/egohumanoid_v2_framework.webp",
+      "source_sha256": "71e02aaca6d871cc7c4519a0b3fc49ed67147358bfa121997f421c361f40854f",
+      "destination": "assets/archon-wbi/egohumanoid_v2_framework.webp",
+      "destination_sha256": "71e02aaca6d871cc7c4519a0b3fc49ed67147358bfa121997f421c361f40854f",
+      "changes": [
+        "Copied without modification; referenced by report.md."
+      ]
+    },
+    {
+      "source": "WBI/assets/archon-wbi/03_egohumanoid_pipeline.png",
+      "source_sha256": "a37714b708331b26233714be21efc29efec8533485e3c4256975c7564fdcd83f",
+      "destination": "assets/archon-wbi/03_egohumanoid_pipeline.png",
+      "destination_sha256": "a37714b708331b26233714be21efc29efec8533485e3c4256975c7564fdcd83f",
+      "changes": [
+        "Copied without modification; referenced by report.md."
+      ]
+    },
+    {
+      "source": "WBI/assets/archon-wbi/06_alignment_results.png",
+      "source_sha256": "ca61b6ac6b7ed68e371a6493680cef15e5c9f9b33b3e4c49a5374d0e9f113eb2",
+      "destination": "assets/archon-wbi/06_alignment_results.png",
+      "destination_sha256": "ca61b6ac6b7ed68e371a6493680cef15e5c9f9b33b3e4c49a5374d0e9f113eb2",
+      "changes": [
+        "Copied without modification; referenced by report.md."
+      ]
+    },
+    {
+      "source": "WBI/assets/archon-wbi/07_action_interface.png",
+      "source_sha256": "960d78e8ae3d17db07b649116399457f9828e5ed0c2316e746f1d845db5e03d6",
+      "destination": "assets/archon-wbi/07_action_interface.png",
+      "destination_sha256": "960d78e8ae3d17db07b649116399457f9828e5ed0c2316e746f1d845db5e03d6",
+      "changes": [
+        "Copied without modification; referenced by report.md."
+      ]
+    },
+    {
+      "source": "WBI/assets/archon-wbi/04_data_flywheel.png",
+      "source_sha256": "ac25b098a57893edf18d8db0d91d34271b6e359069b65a8662a84126461f5d80",
+      "destination": "assets/archon-wbi/04_data_flywheel.png",
+      "destination_sha256": "ac25b098a57893edf18d8db0d91d34271b6e359069b65a8662a84126461f5d80",
+      "changes": [
+        "Copied without modification; referenced by report.md."
+      ]
+    },
+    {
+      "source": "WBI/assets/archon-wbi/05_multirate_control.png",
+      "source_sha256": "aca9cd6f07b0e610a9982d4324358d93e84c429f16c0d58ede3df2bd1d30bb24",
+      "destination": "assets/archon-wbi/05_multirate_control.png",
+      "destination_sha256": "aca9cd6f07b0e610a9982d4324358d93e84c429f16c0d58ede3df2bd1d30bb24",
+      "changes": [
+        "Copied without modification; referenced by report.md."
+      ]
+    },
+    {
+      "source": "WBI/research/2026-10-20/openpi_parameter_counts.json",
+      "source_sha256": "eab98a7612d86f78eea86c6367c999e7f60b3e1304535b09fade2065f0e618b3",
+      "destination": "assets/evidence/openpi-parameter-summary.json",
+      "destination_sha256": "ff5e5aba91aef10986ff2d724ad3a27b2360dbcb7c4e2dc70ecec140c732f152",
+      "changes": [
+        "Keep configuration, grouped counts and totals; omit per-leaf details; record logical repository and calculation boundary."
+      ]
+    }
+  ],
+  "generated_documents": [
+    "README.md",
+    "sources.md"
+  ],
+  "excluded": [
+    "Generic original AGENTS.md",
+    "Full web pages and extracted article text",
+    "Third-party source files and repository tree listings",
+    "Engineering scripts and environments",
+    "Unused images and duplicate SVG exports",
+    "Model weights, datasets and raw logs"
+  ]
+}

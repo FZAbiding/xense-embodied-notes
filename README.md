@@ -14,7 +14,10 @@
 - [Wuji、Wave、OmniHand、Revo：四款灵巧手对比](notes/hand/four-hand-comparison/README.md)
 
 分类以产品和算法展开：`cad`、`humanoid`、`rl`、`vla`、`wam`、`ego`、`hardware`、`robot`、`umi`、`sim`，
-补充 `hand`、`teleop`、`data`。例如 π0.5 的总结放在 `notes/vla/pi05/`，源码与权重保留在原研究工程。
+补充 `hand`、`teleop`、`data`、`research`。例如 π0.5 的总结放在 `notes/vla/pi05/`，源码与权重保留在原研究工程。
+
+暂未归类的阶段性调研放在 [research](notes/research/README.md)，每个主题仍使用独立笔记包。
+归类明确后迁入对应分类，通过标签和相对链接关联交叉主题，同一报告只保留一份。
 
 每个主题以 `README.md` 为入口，长文与专题按需拆分，图表放在同级 `assets/`，来源和版本写在 `sources.md`。
 原始 CAD、模型库、第三方源码、训练产物和数据集继续由各自项目管理。
